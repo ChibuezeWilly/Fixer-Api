@@ -49,22 +49,31 @@ app.get("/api/locations", async (req, res) => {
     res.status(500).json({ message: err });
   }
 });
-// Express.js route for fetching a specific location by ID
-app.get("/api/locations/:id", async (req, res) => {
-  const locationId = parseInt(req.params.id, 10); // Extract location ID from URL params
+
+const holidayLoader = async (id) => {
   try {
-    const location = locations.find((loc) => loc.id === locationId); // Find location by ID
-    if (!location) {
-      return res.status(404).json({ message: "Location not found" });
+    const res = await fetch(`https://fixer-api.onrender.com/api/locations/${id}`);
+    if (!res.ok) {
+      throw new Error("Location not found");
     }
-    // Return the location data if found
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching location data:", error);
+    throw error;
+  }
+};
+
+app.get('/locations/:id', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const location = await holidayLoader(id);
     res.json(location);
   } catch (error) {
-    res.status(500).json({ message: "Internal Server Error", error: error.message });
+    res.status(500).json({ error: "Error fetching location data" });
   }
 });
-
-
 // Specific routes for different categories based on location.json structure
 app.get("/api/beach", async (req, res) => {
   try {
