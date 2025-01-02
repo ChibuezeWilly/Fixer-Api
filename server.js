@@ -15,8 +15,10 @@ const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Middleware to parse incoming JSON data
+
 app.use(express.json());
 app.use(cors());
+app.use('/assets', express.static('public/assets'));
 
 // Load the data from location.json once
 const filePath = path.join(__dirname, "public", "location.json");
