@@ -49,6 +49,20 @@ app.get("/api/locations", async (req, res) => {
     res.status(500).json({ message: err });
   }
 });
+// Express.js route for fetching a specific location by ID
+app.get("/api/locations/:id", async (req, res) => {
+  const locationId = parseInt(req.params.id, 10); // Extract location ID from URL params
+  try {
+    const location = locations.find((loc) => loc.id === locationId); // Find location by ID
+    if (!location) {
+      return res.status(404).json({ message: "Location not found" });
+    }
+    // Return the location data if found
+    res.json(location);
+  } catch (error) {
+    res.status(500).json({ message: "Internal Server Error", error: error.message });
+  }
+});
 
 
 // Specific routes for different categories based on location.json structure
