@@ -46,31 +46,20 @@ app.get("/api/locations", async (req, res) => {
     res.status(500).json({ message: err });
   }
 });
-const holidayLoader = async (id) => {
-  try {
-    const res = await fetch(`https://api.example.com/locations/${id}`);
-    if (!res.ok) {
-      throw new Error("Location not found");
+app.get("/api/locations/:id", async (req, res) => {
+    try {
+        const data = await readLocationData();
+        const packageData = data.locations.find(pkg => pkg.id === req.params.id);
+        if (!packageData) {
+            return res.status(404).json({ message: "Package not found" });
+        }
+        res.status(200).json(packageData);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: "Error fetching package data" });
     }
-    const data = await res.text(); // Ensure .text() is called to get the HTML content
-    return data;
-  } catch (error) {
-    console.error("Error fetching location data:", error);
-    throw error;
-  }
-};
-
-app.get('/locations/:id', async (req, res) => {
-  const { id } = req.params; // Get the location ID from the URL
-  try {
-    const location = await holidayLoader(id); // Fetch location data using the ID
-    res.send(location); // Send the HTML content back to the client
-  } catch (error) {
-    res.status(500).send("Error fetching location data");
-  }
 });
 
-// Specific routes for different categories based on location.json structure
 app.get("/api/beach", async (req, res) => {
   try {
     const data = await readLocationData();
