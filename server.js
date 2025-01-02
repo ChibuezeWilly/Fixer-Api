@@ -35,16 +35,19 @@ const readLocationData = () => {
 
 // Route for /api/location (returns all data)
 app.get("/api/locations", async (req, res) => {
-  const limit = parseInt(req.query._limit) || 10; // Default limit is 10 if not provided
+  const limit = req.query._limit ? parseInt(req.query._limit) : null; 
   try {
     const data = await readLocationData();
-    const locations = data.locations.slice(0, limit); // Apply the limit to the locations array
+  
+    const locations = limit ? data.locations.slice(0, limit) : data.locations;
+
     res.status(200).json(locations);
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: err });
   }
 });
+
 
 // Specific routes for different categories based on location.json structure
 app.get("/api/beach", async (req, res) => {
@@ -67,10 +70,10 @@ app.get("/api/adventure", async (req, res) => {
   }
 });
 
-app.get("/api/Cultural Holidays", async (req, res) => {
+app.get("/api/Cultural", async (req, res) => {
   try {
     const data = await readLocationData();
-    res.status(200).json(data["Cultural Holidays"]); // Accessing the Cultural Holidays key
+    res.status(200).json(data.Cultural); // Accessing the Cultural Holidays key
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: err });
