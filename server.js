@@ -155,7 +155,7 @@ app.get('/api/homes', async (req, res) => {
 app.get("/api/travelers", async (req, res) => {
   try {
     const data = await readLocationData();
-    res.status(200).json(data.traveler); // Accessing the traveler key
+    res.status(200).json(data.travelers); // Accessing the traveler key
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: err });
