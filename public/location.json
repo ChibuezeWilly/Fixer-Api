@@ -3043,7 +3043,7 @@
       "id": "8deb"
     }
   ],
-  "traveler": [
+  "travelers": [
     {
       "id": "1",
       "name": "Chibueze Williams",
@@ -3051,46 +3051,6 @@
       "phone": "+229 61975355",
       "address": "Fifatin",
       "travelers": "9"
-    },
-    {
-      "id": "a49a",
-      "name": "Chibueze Williams",
-      "email": "pricelesswilliams1234@gmail.com",
-      "phone": "61975355",
-      "address": "Fifatin",
-      "travelers": "3"
-    },
-    {
-      "id": "35b6",
-      "name": "Chibueze Williams",
-      "email": "pricelesswilliams1234@gmail.com",
-      "phone": "61975355",
-      "address": "Fifatin1",
-      "travelers": "6"
-    },
-    {
-      "id": "88b7",
-      "name": "Chibueze Williams",
-      "email": "pricelesswilliams1234@gmail.com",
-      "phone": "61975355",
-      "address": "Fifatin",
-      "travelers": "8"
-    },
-    {
-      "id": "336b",
-      "name": "Chibueze Williams",
-      "email": "pricelesswilliams1234@gmail.com",
-      "phone": "61975355",
-      "address": "Fifatin",
-      "travelers": "9"
-    },
-    {
-      "id": "2a7a",
-      "name": "Chibueze Williams",
-      "email": "pricelesswilliams1234@gmail.com",
-      "phone": "61975355",
-      "address": "Fifatin",
-      "travelers": "4"
     }
   ]
 }
