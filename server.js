@@ -34,29 +34,25 @@ const readLocationData = () => {
     });
   });
 };
-
 // Route for /api/location (returns all data)
 app.get("/api/locations", async (req, res) => {
   const limit = req.query._limit ? parseInt(req.query._limit) : null; 
   try {
     const data = await readLocationData();
-  
     const locations = limit ? data.locations.slice(0, limit) : data.locations;
-
     res.status(200).json(locations);
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: err });
   }
 });
-
 const holidayLoader = async (id) => {
   try {
-    const res = await fetch(`https://fixer-api.onrender.com/api/locations/${id}`);
+    const res = await fetch(`https://api.example.com/locations/${id}`);
     if (!res.ok) {
       throw new Error("Location not found");
     }
-    const data = await res.json();
+    const data = await res.text(); // Ensure .text() is called to get the HTML content
     return data;
   } catch (error) {
     console.error("Error fetching location data:", error);
@@ -65,15 +61,15 @@ const holidayLoader = async (id) => {
 };
 
 app.get('/locations/:id', async (req, res) => {
-  const { id } = req.params;
-
+  const { id } = req.params; // Get the location ID from the URL
   try {
-    const location = await holidayLoader(id);
-    res.json(location);
+    const location = await holidayLoader(id); // Fetch location data using the ID
+    res.send(location); // Send the HTML content back to the client
   } catch (error) {
-    res.status(500).json({ error: "Error fetching location data" });
+    res.status(500).send("Error fetching location data");
   }
 });
+
 // Specific routes for different categories based on location.json structure
 app.get("/api/beach", async (req, res) => {
   try {
@@ -176,16 +172,18 @@ app.get('/api/homes', async (req, res) => {
     }
 });
 
-
-app.get("/api/travelers", async (req, res) => {
+// Your existing POST request handler
+app.post("/api/travelers", async (req, res) => {
   try {
-    const data = await readLocationData();
-    res.status(200).json(data.travelers); // Accessing the traveler key
+    const { name, email, phone, address, travelers } = req.body;
+    console.log(name, email, phone, address, travelers);
+    res.status(200).json({ message: "Traveler data received successfully!" });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: err });
+    console.error("Error processing traveler data:", err);
+    res.status(500).json({ message: "Server error" });
   }
 });
+
 
 // Start the server
 app.listen(PORT, () => {
