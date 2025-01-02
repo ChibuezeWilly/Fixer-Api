@@ -140,10 +140,10 @@ app.get("/api/Wildlife", async (req, res) => {
   }
 });
 app.get('/api/homes', async (req, res) => {
-    const limit = parseInt(req.query._limit) || 10;
+    const limit = req.query._limit ? parseInt(req.query._limit) : null;
     try {
         const data = await readLocationData();
-        const homes = data.homes.slice(0, limit); // Apply the limit
+        const homes = limit ? data.homes.slice(0, limit) : data.homes
         res.status(200).json(homes);
     } catch (err) {
         console.error(err);
