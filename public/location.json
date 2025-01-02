@@ -1,0 +1,3096 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "name": "Paris",
+      "country": "France",
+      "type": "City",
+      "description": "The city of love, known for the Eiffel Tower, art museums, and beautiful cafes.",
+      "description1": "Paris, the City of Light, is world-renowned for its iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum. With its charming cafes, elegant streets, and rich cultural heritage, Paris offers an unforgettable experience for art lovers, history enthusiasts, and romantics alike.",
+      "image": "/src/assets/images/paris.jpg",
+      "rating": 9.4,
+      "price": "$1500",
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Schönbrunn Palace",
+            "Hofburg Palace"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Vienna State Opera",
+            "Belvedere Museum"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bali",
+      "country": "Indonesia",
+      "type": "Island",
+      "description": "A tropical paradise with stunning beaches, lush greenery, and a vibrant culture.",
+      "description1": "Bali is a tropical paradise renowned for its stunning beaches, lush rice terraces, and vibrant culture. It's the perfect destination for those seeking a blend of relaxation, adventure, and spirituality. Experience world-class resorts, ancient temples, and endless opportunities for water sports in this island gem.",
+      "image": "/src/assets/images/bali.jpg",
+      "rating": 8.7,
+      "price": "$1200",
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Uluwatu Temple",
+            "Sacred Monkey Forest"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Ubud Art Market",
+            "Tegenungan Waterfall"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "New York",
+      "country": "United States",
+      "type": "City",
+      "description": "The Big Apple, known for Times Square, Central Park, and world-class entertainment.",
+      "description1": "New York is a dynamic city that never sleeps, offering an iconic skyline, world-famous landmarks like Times Square, Central Park, and the Statue of Liberty. Explore its diverse neighborhoods, enjoy Broadway shows, and indulge in some of the best dining experiences in the world.",
+      "image": "/src/assets/images/new york.jpg",
+      "price": "$1800",
+      "rating": 9.1,
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Statue of Liberty",
+            "Central Park"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Broadway Shows",
+            "Museum of Modern Art (MoMA)"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "5 people"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "type": "City",
+      "description": "The city of skyscrapers, luxury shopping, and desert adventures.",
+      "description1": "Dubai is a dazzling city that represents luxury, innovation, and modernity. Known for its towering skyscrapers like the Burj Khalifa, extravagant shopping malls, and man-made islands, Dubai is a playground for those seeking adventure and opulence. Explore the desert with thrilling safaris, relax on pristine beaches, or shop in the world’s largest malls.",
+      "image": "/src/assets/images/photo-1508842486971-80e43cd3b916.jpg",
+      "rating": 9.2,
+      "price": "$2200",
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Burj Khalifa",
+            "Dubai Marina"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Dubai Opera",
+            "Alserkal Avenue Art Galleries"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "5 people"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Maldives",
+      "country": "Maldives",
+      "type": "Island",
+      "description": "A stunning archipelago known for crystal-clear waters and luxury resorts.",
+      "description1": "The Maldives is a tropical paradise made up of over 1,000 islands, famous for its crystal-clear waters, white-sand beaches, and luxury overwater bungalows. A top destination for honeymooners, divers, and those looking for a tranquil getaway, it offers unparalleled natural beauty and serenity.",
+      "image": "/src/assets/images/maldives.jpg",
+      "price": "$3000",
+      "rating": 9.5,
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Private Island Resorts",
+            "Snorkeling Adventures"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Local Drumming Performances",
+            "Island Hopping"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "5 people"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Tokyo",
+      "country": "Japan",
+      "type": "City",
+      "description": "A bustling metropolis blending tradition with futuristic technology.",
+      "description1": "Tokyo is a vibrant metropolis where cutting-edge technology meets traditional culture. Explore ancient temples like Senso-ji, shop in bustling districts like Shibuya and Harajuku, and savor world-class sushi in this energetic city that offers something for every traveler.",
+      "image": "/src/assets/images/tokyo.jpg",
+      "rating": 8.4,
+      "price": "$2500",
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Imperial Palace",
+            "Tokyo Skytree"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "3 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Ghibli Museum",
+            "Kabuki Theater"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "3 people"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sydney",
+      "country": "Australia",
+      "type": "City",
+      "description": "Famous for the Sydney Opera House, beaches, and vibrant city life.",
+      "description1": "Sydney, Australia's largest city, is known for its iconic landmarks like the Sydney Opera House and Harbour Bridge. With its beautiful beaches, lively cultural scene, and vibrant dining options, it's an exciting destination that blends cosmopolitan energy with outdoor adventure.",
+      "image": "/src/assets/images/sydney.jpg",
+      "rating": 8.4,
+      "price": "$2000",
+      "holidays": [
+        {
+          "type": "Coastal Getaway",
+          "activities": [
+            "Sydney Opera House",
+            "Bondi Beach"
+          ],
+          "duration": "5 days",
+          "price": "$2200",
+          "people": "4 people"
+        },
+        {
+          "type": "Nature & Wildlife",
+          "activities": [
+            "Taronga Zoo",
+            "Blue Mountains"
+          ],
+          "duration": "4 days",
+          "price": "$2000",
+          "people": "3 people"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Rome",
+      "country": "Italy",
+      "type": "City",
+      "description": "A historical city filled with ancient ruins and incredible cuisine.",
+      "description1": "Rome, the Eternal City, is steeped in ancient history, from the Colosseum to the Roman Forum. A hub of art, culture, and architecture, it offers visitors the chance to walk through centuries of history while enjoying delicious Italian cuisine in a charming and romantic atmosphere.",
+      "image": "/src/assets/images/rome.jpg",
+      "rating": 8.8,
+      "price": "$1700",
+      "holidays": [
+        {
+          "type": "Historical Sites",
+          "activities": [
+            "Colosseum",
+            "Vatican Museums"
+          ],
+          "duration": "4 days",
+          "price": "$1800",
+          "people": "2 people"
+        },
+        {
+          "type": "Rome by Night",
+          "activities": [
+            "Trevi Fountain",
+            "Spanish Steps"
+          ],
+          "duration": "3 days",
+          "price": "$1500",
+          "people": "2 people"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Santorini",
+      "country": "Greece",
+      "type": "Island",
+      "description": "A picturesque island with whitewashed buildings and stunning sunsets.",
+      "description1": "Santorini is a breathtaking island in the Aegean Sea, known for its dramatic cliffs, whitewashed buildings, and stunning sunsets. With its crystal-clear waters and volcanic beaches, it’s a dream destination for couples and travelers looking for romance, adventure, and beauty.",
+      "image": "/src/assets/images/santorini.jpg",
+      "price": "$1900",
+      "rating": 9.5,
+      "holidays": [
+        {
+          "type": "Island Escape",
+          "activities": [
+            "Santorini Sunset",
+            "Oia Village"
+          ],
+          "duration": "4 days",
+          "price": "$1600",
+          "people": "2 people"
+        },
+        {
+          "type": "Romantic Getaway",
+          "activities": [
+            "Private Yacht Tour",
+            "Amoudi Bay"
+          ],
+          "duration": "5 days",
+          "price": "$2200",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "type": "City",
+      "description": "Famous for its canals, art museums, and cycling culture.",
+      "description1": "Amsterdam is a city of canals, bikes, and museums, offering visitors a mix of history and modern culture. Explore the Van Gogh Museum, Anne Frank House, and beautiful parks while soaking in the charm of its unique architecture and vibrant atmosphere.",
+      "image": "/src/assets/images/amsterdam.jpg",
+      "rating": 7.9,
+      "price": "$1300",
+      "holidays": [
+        {
+          "type": "Cultural Exploration",
+          "activities": [
+            "Rijksmuseum",
+            "Canal Tour"
+          ],
+          "duration": "4 days",
+          "price": "$1600",
+          "people": "3 people"
+        },
+        {
+          "type": "History & Art",
+          "activities": [
+            "Van Gogh Museum",
+            "Anne Frank House"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "5 people"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Barcelona",
+      "country": "Spain",
+      "type": "City",
+      "description": "Known for its unique architecture, beaches, and vibrant nightlife.",
+      "description1": "Barcelona is a vibrant coastal city known for its modernist architecture, including Gaudí’s masterpieces like the Sagrada Familia. With stunning beaches, delicious tapas, and a lively nightlife scene, it’s a city that offers a rich cultural experience along with Mediterranean warmth.",
+      "image": "/src/assets/images/barcelona.jpg",
+      "price": "$1600",
+      "rating": 8.1,
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Schönbrunn Palace",
+            "Hofburg Palace"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Music & Art",
+          "activities": [
+            "Vienna State Opera",
+            "Belvedere Museum"
+          ],
+          "duration": "3 days",
+          "price": "$1300",
+          "people": "2 people"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Cairo",
+      "country": "Egypt",
+      "type": "City",
+      "description": "Home to the ancient Pyramids of Giza, the Sphinx, and the Nile River.",
+      "description1": "Cairo, Egypt’s bustling capital, is a city of ancient wonders, including the Pyramids of Giza and the Sphinx. Dive into the history of one of the world’s oldest civilizations, explore vibrant markets, and experience a rich cultural heritage that spans thousands of years.",
+      "image": "/src/assets/images/cairo.png",
+      "rating": 7.7,
+      "price": "$1200",
+      "holidays": [
+        {
+          "type": "Ancient Egypt",
+          "activities": [
+            "Pyramids of Giza",
+            "Egyptian Museum"
+          ],
+          "duration": "4 days",
+          "price": "$1700",
+          "people": "3 people"
+        },
+        {
+          "type": "Historical Adventure",
+          "activities": [
+            "Luxor Temple",
+            "Valley of the Kings"
+          ],
+          "duration": "5 days",
+          "price": "$2000",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Hong Kong",
+      "country": "China",
+      "type": "City",
+      "description": "A vibrant city known for its skyline, shopping, and delicious food.",
+      "description1": "Hong Kong is a bustling metropolis where East meets West, offering a dynamic blend of modern skyscrapers, traditional temples, and vibrant street markets. The city is known for its impressive skyline, luxury shopping, and mouthwatering cuisine. From Victoria Peak’s stunning views to the bustling streets of Mong Kok, Hong Kong is a city full of energy and excitement.",
+      "image": "/src/assets/images/hong kong.jpg",
+      "rating": 8.1,
+      "price": "$1800",
+      "holidays": [
+        {
+          "type": "Urban Adventure",
+          "activities": [
+            "Victoria Peak",
+            "Hong Kong Disneyland"
+          ],
+          "duration": "4 days",
+          "price": "$2100",
+          "people": "4 people"
+        },
+        {
+          "type": "Cultural Discovery",
+          "activities": [
+            "Hong Kong Museum of Art",
+            "Temple Street Night Market"
+          ],
+          "duration": "3 days",
+          "price": "$1800",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Athens",
+      "country": "Greece",
+      "type": "City",
+      "description": "The cradle of Western civilization, home to ancient ruins and vibrant markets.",
+      "description1": "Athens, the birthplace of democracy, is a city filled with ancient history, from the Acropolis to the Parthenon. With a rich cultural scene, vibrant nightlife, and beautiful Mediterranean weather, it’s a city that combines modernity with the echoes of the past.",
+      "image": "/src/assets/images/athens.jpg",
+      "price": "$1400",
+      "rating": 7.9,
+      "holidays": [
+        {
+          "type": "Ancient Greece",
+          "activities": [
+            "Acropolis of Athens",
+            "Temple of Olympian Zeus"
+          ],
+          "duration": "3 days",
+          "price": "$1500",
+          "people": "3 people"
+        },
+        {
+          "type": "Historical Sites",
+          "activities": [
+            "Parthenon",
+            "Ancient Agora"
+          ],
+          "duration": "4 days",
+          "price": "$1600",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "London",
+      "country": "United Kingdom",
+      "type": "City",
+      "description": "Famous for its royal history, theaters, and iconic landmarks.",
+      "description1": "London, the capital of the United Kingdom, is a city steeped in history and culture. With iconic landmarks like the Tower of London, Buckingham Palace, and the British Museum, it offers an exciting blend of tradition and modernity. Experience world-class theater in the West End, explore vibrant markets, or take a relaxing stroll along the Thames.",
+      "image": "/src/assets/images/london.jpg",
+      "rating": 8.6,
+      "price": "$1700",
+      "holidays": [
+        {
+          "type": "Royal & Historical",
+          "activities": [
+            "Buckingham Palace",
+            "Westminster Abbey"
+          ],
+          "duration": "4 days",
+          "price": "$2000",
+          "people": "3 people"
+        },
+        {
+          "type": "Cultural City Tour",
+          "activities": [
+            "British Museum",
+            "London Eye"
+          ],
+          "duration": "3 days",
+          "price": "$1800",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Berlin",
+      "country": "Germany",
+      "type": "City",
+      "description": "Known for its history, modern architecture, and vibrant cultural scene.",
+      "image": "/src/assets/images/berlin.png",
+      "description1": "Germany is a country rich in history, culture, and stunning landscapes. From the fairy-tale castles of Bavaria to the bustling streets of Berlin, Germany offers a diverse range of experiences. Explore the historical remnants of the Berlin Wall, enjoy the famous Oktoberfest in Munich, or take a scenic drive along the Romantic Road through charming medieval villages.",
+      "rating": 7.9,
+      "price": "$1500",
+      "holidays": [
+        {
+          "type": "History & Culture",
+          "activities": [
+            "Brandenburg Gate",
+            "Berlin Wall Memorial"
+          ],
+          "duration": "4 days",
+          "price": "$1600",
+          "people": "3 people"
+        },
+        {
+          "type": "Art & Architecture",
+          "activities": [
+            "Pergamon Museum",
+            "Berlin Cathedral"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "5 people"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Venice",
+      "country": "Italy",
+      "type": "City",
+      "description": "A romantic city known for its canals, bridges, and gondola rides.",
+      "description1": "Venice, a city built on water, is a romantic destination known for its winding canals, beautiful gondolas, and historic architecture. Visit St. Mark’s Basilica, explore the Rialto Bridge, and enjoy the city’s unique charm, where every corner offers a picturesque scene.",
+      "image": "/src/assets/images/venice.jpg",
+      "rating": 8.2,
+      "price": "$1800",
+      "holidays": [
+        {
+          "type": "Romantic Getaway",
+          "activities": [
+            "Grand Canal",
+            "St. Mark's Basilica"
+          ],
+          "duration": "4 days",
+          "price": "$1800",
+          "people": "2 people"
+        },
+        {
+          "type": "Cultural Escape",
+          "activities": [
+            "Rialto Bridge",
+            "Doge's Palace"
+          ],
+          "duration": "3 days",
+          "price": "$1600",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Zurich",
+      "country": "Switzerland",
+      "type": "City",
+      "description": "Known for its banking sector, beautiful lakes, and snowy mountains.",
+      "description1": "Zurich, Switzerland’s financial and cultural hub, offers visitors a blend of natural beauty and urban sophistication. With its charming Old Town, world-class museums, and scenic views of Lake Zurich and the Swiss Alps, it’s a great destination for those seeking both relaxation and adventure.",
+      "image": "/src/assets/images/zurich.jpg",
+      "price": "$2000",
+      "rating": 7.9,
+      "holidays": [
+        {
+          "type": "Swiss Adventure",
+          "activities": [
+            "Lake Zurich",
+            "Swiss National Museum"
+          ],
+          "duration": "4 days",
+          "price": "$2000",
+          "people": "3 people"
+        },
+        {
+          "type": "Mountain Escape",
+          "activities": [
+            "Mount Pilatus",
+            "Zermatt"
+          ],
+          "duration": "5 days",
+          "price": "$2200",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Vienna",
+      "country": " Austria",
+      "type": "City",
+      "description": "A city known for its imperial palaces, operas, and coffeehouses.",
+      "description1": "Vienna is a city of imperial palaces, world-class opera, and rich history. Visit the Hofburg Palace, Schönbrunn Palace, and the Vienna State Opera, and enjoy the city's renowned coffeehouses, which are the perfect spot to relax and take in the culture.",
+      "image": "/src/assets/images/france.jpg",
+      "price": "$1600",
+      "rating": 8.8,
+      "holidays": [
+        {
+          "type": "Royal Escape",
+          "activities": [
+            "Schönbrunn Palace",
+            "Hofburg Palace"
+          ],
+          "duration": "4 days",
+          "price": "$1900",
+          "people": "2 people"
+        },
+        {
+          "type": "Music & Arts",
+          "activities": [
+            "Vienna State Opera",
+            "Kunsthistorisches Museum"
+          ],
+          "duration": "3 days",
+          "price": "$1700",
+          "people": "3 people"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Moscow",
+      "country": "Russia",
+      "type": "City",
+      "description": "Famous for its rich history, stunning architecture, and vibrant culture.",
+      "description1": "Moscow, the capital of Russia, is a city of grand architecture and historical significance. Explore the Kremlin, Red Square, and St. Basil’s Cathedral, while also enjoying the modern side of the city with its thriving arts scene and contemporary culture.",
+      "image": "/src/assets/images/moscow.png",
+      "price": "$1900",
+      "rating": 8.5,
+      "holidays": [
+        {
+          "type": "Cultural Immersion",
+          "activities": [
+            "Red Square",
+            "Kremlin Tour"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Historical Exploration",
+          "activities": [
+            "Pushkin Museum",
+            "Bolshoi Theatre"
+          ],
+          "duration": "3 days",
+          "price": "$1300",
+          "people": "2 people"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Seoul",
+      "country": "South Korea",
+      "type": "City",
+      "description": "A blend of modern and traditional, with palaces, technology, and shopping.",
+      "image": "/src/assets/images/seoul.jpg",
+      "price": "$1700",
+      "rating": 8.2,
+      "holidays": [
+        {
+          "type": "Cultural Discovery",
+          "activities": [
+            "Gyeongbokgung Palace",
+            "Bukchon Hanok Village"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Shopping & Entertainment",
+          "activities": [
+            "Myeongdong Shopping",
+            "K-Pop Experience"
+          ],
+          "duration": "3 days",
+          "price": "$1300",
+          "people": "2 people"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Madrid",
+      "country": "Spain",
+      "type": "City",
+      "description": "A lively city known for its vibrant nightlife, art museums, and historic sites.",
+      "description1": "Madrid, Spain’s capital, is a vibrant city known for its art, culture, and nightlife. Visit the Prado Museum, the Royal Palace, and Retiro Park, and enjoy delicious tapas in lively restaurants and bars scattered throughout the city.",
+      "image": "/src/assets/images/madrid.jpg",
+      "price": "$1500",
+      "rating": 8.9,
+      "holidays": [
+        {
+          "type": "Art & History",
+          "activities": [
+            "Prado Museum",
+            "Royal Palace of Madrid"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Nightlife & Culture",
+          "activities": [
+            "Tapas Tour",
+            "Flamenco Show"
+          ],
+          "duration": "3 days",
+          "price": "$1300",
+          "people": "2 people"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Seychelles",
+      "country": "Seychelles",
+      "type": "City",
+      "description": "Known for its fairytale-like streets, medieval architecture, and beer culture.",
+      "description1": "Seychelles is an idyllic archipelago of 115 islands, offering pristine beaches, crystal-clear waters, and lush rainforests. Perfect for eco-tourism and luxury getaways, it is a paradise for diving, snorkeling, and enjoying nature at its finest.",
+      "image": "/src/assets/images/seycheslles.jpeg",
+      "price": "$1300",
+      "rating": 9.6,
+      "holidays": [
+        {
+          "type": "Historical Tour",
+          "activities": [
+            "Old Town Square",
+            "Charles Bridge"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Beer & Culture",
+          "activities": [
+            "Pilsner Urquell Brewery",
+            "Czech Beer Museum"
+          ],
+          "duration": "3 days",
+          "price": "$1300",
+          "people": "4 people"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Hawaii",
+      "country": "Hawaii",
+      "type": "City",
+      "description": "Hawaii is known for its beautiful beaches, tropical climate, and unique flora and fauna",
+      "description1": "Hawaii, a group of islands in the Pacific, offers stunning beaches, active volcanoes, and vibrant Polynesian culture. From surfing the waves of Waikiki to hiking volcanic craters, Hawaii is an outdoor adventurer’s paradise with something for everyone.",
+      "image": "/src/assets/images/hawaii.jpeg",
+      "price": "$1800",
+      "rating": 8.5,
+      "holidays": [
+        {
+          "type": "Historical Tour",
+          "activities": [
+            "Old Town Square",
+            "Charles Bridge"
+          ],
+          "duration": "4 days",
+          "price": "$1300",
+          "people": "2 people"
+        },
+        {
+          "type": "Beer & Culture",
+          "activities": [
+            "Pilsner Urquell Brewery",
+            "Czech Beer Museum"
+          ],
+          "duration": "3 days",
+          "price": "$1500",
+          "people": "4 people"
+        }
+      ]
+    }
+  ],
+  "homes": [
+    {
+      "id": "1",
+      "homeName": "Sunset Villa",
+      "location": "Malibu, California",
+      "rating": 9.7,
+      "remarks": "Fantastic",
+      "reviews": "2580 reviews",
+      "price": "$1050",
+      "image": "/src/assets/images2/sunset-villa.jpg"
+    },
+    {
+      "id": "2",
+      "homeName": "Cozy Cabin Retreat",
+      "location": "Asheville, North Carolina",
+      "rating": 8.8,
+      "remarks": "Very good",
+      "reviews": "1102 reviews",
+      "price": "$520",
+      "image": "/src/assets/images2/cozy.jpg"
+    },
+    {
+      "id": "3",
+      "homeName": "Modern Apartment Loft",
+      "location": "New York City, New York",
+      "rating": 8.1,
+      "remarks": "Very good",
+      "reviews": "3450 reviews",
+      "price": "$750",
+      "image": "/src/assets/images2/modern.jpeg"
+    },
+    {
+      "id": "4",
+      "homeName": "Lakeview Cottage",
+      "location": "Lake Tahoe, Nevada",
+      "rating": 8.9,
+      "remarks": "Very good",
+      "reviews": "1290 reviews",
+      "price": "$300",
+      "image": "/src/assets/images2/lake.jpeg"
+    },
+    {
+      "id": "5",
+      "homeName": "Beachfront Bungalow",
+      "location": "Maui, Hawaii",
+      "rating": 7.9,
+      "remarks": "Great",
+      "reviews": "2510 reviews",
+      "price": "$670",
+      "image": "/src/assets/images2/beach.jpeg"
+    },
+    {
+      "id": "6",
+      "homeName": "Historic Townhouse",
+      "location": "Charleston, South Carolina",
+      "rating": 7.5,
+      "remarks": "Great",
+      "reviews": "1067 reviews",
+      "price": "$350",
+      "image": "/src/assets/images2/historic.jpg"
+    },
+    {
+      "id": "7",
+      "homeName": "Luxury Penthouse",
+      "location": "Miami, Florida",
+      "rating": 9.9,
+      "remarks": "Fantastic",
+      "reviews": "4298 reviews",
+      "price": "$1500",
+      "image": "/src/assets/images2/luxury.jpeg"
+    },
+    {
+      "id": "8",
+      "homeName": "Country Farmhouse",
+      "location": "Nashville, Tennessee",
+      "rating": 9.2,
+      "remarks": "Suberb",
+      "reviews": "2300 reviews",
+      "price": "$670",
+      "image": "/src/assets/images2/countryfarmhouse.jpeg"
+    },
+    {
+      "id": "9",
+      "homeName": "Urban Studio Flat",
+      "location": "Seattle, Washington",
+      "rating": 8.8,
+      "remarks": "Fabulous",
+      "reviews": "1692 reviews",
+      "price": "$730",
+      "image": "/src/assets/images2/studio-flat.jpeg"
+    },
+    {
+      "id": "10",
+      "homeName": "Mountain Chalet",
+      "location": "Aspen, Colorado",
+      "rating": 8.5,
+      "remarks": "Very good",
+      "reviews": "3143 reviews",
+      "price": "$690",
+      "image": "/src/assets/images2/mountan-chalet.jpeg"
+    },
+    {
+      "id": "11",
+      "homeName": "Seaside Cottage",
+      "location": "Cape Cod, Massachusetts",
+      "rating": 8.8,
+      "remarks": "Fabulous",
+      "reviews": 5332,
+      "price": "$570",
+      "image": "/src/assets/images2/seaside-cottage.jpeg"
+    },
+    {
+      "id": "12",
+      "homeName": "Garden Guest House",
+      "location": "Savannah, Georgia",
+      "rating": 8,
+      "remarks": "Very good",
+      "reviews": 2194,
+      "price": "$580",
+      "image": "/src/assets/images2/garden-house.jpeg"
+    },
+    {
+      "id": "13",
+      "homeName": "Desert Oasis Villa",
+      "location": "Palm Springs, California",
+      "rating": 7.9,
+      "remarks": "Great",
+      "reviews": 1402,
+      "price": "$720",
+      "image": "/src/assets/images2/desert.jpeg"
+    },
+    {
+      "id": "14",
+      "homeName": "City Center Condo",
+      "location": "Chicago, Illinois",
+      "rating": 8.7,
+      "remarks": "Fabulous",
+      "reviews": 2339,
+      "price": "$800",
+      "image": "/src/assets/images2/city-center.jpeg"
+    },
+    {
+      "id": "15",
+      "homeName": "Luxury Treehouse",
+      "location": "Portland, Oregon",
+      "rating": 8.9,
+      "remarks": "Very good",
+      "reviews": 3012,
+      "price": "$690",
+      "image": "/src/assets/images2/Modern Treehouse.jpeg"
+    },
+    {
+      "id": "16",
+      "homeName": "Oceanview Mansion",
+      "location": "San Diego, California",
+      "rating": 9,
+      "remarks": "Superb",
+      "reviews": 2080,
+      "price": "$820",
+      "image": "/src/assets/images2/ocean-view.jpeg"
+    },
+    {
+      "id": "17",
+      "homeName": "Coastal Retreat",
+      "location": "Outer Banks, North Carolina",
+      "rating": 9.1,
+      "remarks": "Suberb",
+      "reviews": 2185,
+      "price": "$550",
+      "image": "/src/assets/images2/coastal retreat.jpeg"
+    },
+    {
+      "id": "18",
+      "homeName": "Hilltop Lodge",
+      "location": "Gatlinburg, Tennessee",
+      "rating": 8.5,
+      "remarks": "Very good",
+      "reviews": 3372,
+      "price": "$750",
+      "image": "/src/assets/images2/hilltop.jpeg"
+    },
+    {
+      "id": "19",
+      "homeName": "Ski Resort Cabin",
+      "location": "Park City, Utah",
+      "rating": 7.8,
+      "remarks": "Great",
+      "reviews": 1150,
+      "price": "$680",
+      "image": "/src/assets/images2/ski.jpeg"
+    },
+    {
+      "id": "20",
+      "homeName": "Downtown Studio",
+      "location": "Boston, Massachusetts",
+      "rating": 8,
+      "remarks": "Very good",
+      "reviews": 2393,
+      "price": "$420",
+      "image": "/src/assets/images2/studio-flat.jpeg"
+    },
+    {
+      "id": "21",
+      "homeName": "Riverfront Lodge",
+      "location": "Spokane, Washington",
+      "rating": 7.5,
+      "remarks": "Great",
+      "reviews": 1280,
+      "price": "$490",
+      "image": "/src/assets/images2/river.jpeg"
+    },
+    {
+      "id": "22",
+      "homeName": "Vintage Cabin",
+      "location": "Flagstaff, Arizona",
+      "rating": 8.2,
+      "remarks": "Very good",
+      "reviews": 4061,
+      "price": "$500",
+      "image": "/src/assets/images2/vintage.jpeg"
+    },
+    {
+      "id": "23",
+      "homeName": "Eco-Friendly Retreat",
+      "location": "Boulder, Colorado",
+      "rating": 8.9,
+      "remarks": "Fabulous",
+      "reviews": 1270,
+      "price": "$810",
+      "image": "/src/assets/images2/eco-friendly.jpeg"
+    },
+    {
+      "id": "24",
+      "homeName": "Luxury Yacht Stay",
+      "location": "Key West, Florida",
+      "rating": 9.9,
+      "remarks": "Fantastic",
+      "reviews": 6200,
+      "price": "$2500",
+      "image": "/src/assets/images2/yatch.jpeg"
+    }
+  ],
+  "adventure": [
+    {
+      "name": "Queenstown",
+      "rating": 4.9,
+      "price": "$2100",
+      "description": "Experience thrilling adventures, from bungee jumping to hiking, in Queenstown, New Zealand. Known as the adventure capital of the world, Queenstown offers a wide range of activities including skydiving, jet boating, and scenic gondola rides. Enjoy breathtaking views of the Remarkables mountain range and Lake Wakatipu while indulging in the vibrant local dining scene.",
+      "duration": "7 days",
+      "image": "/src/assets/Adventure/Queenstown, New Zealand.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Bungee jumping",
+        "Skydiving",
+        "Jet boating",
+        "Hiking",
+        "Gondola rides",
+        "Scenic flights",
+        "Local cuisine"
+      ],
+      "id": "b736"
+    },
+    {
+      "name": "Patagonia",
+      "rating": 4.8,
+      "price": "$1900",
+      "description": "Embark on an epic journey through the rugged beauty of Patagonia. Explore stunning national parks, hike through breathtaking landscapes, and witness the majestic glaciers and mountains. Experience the rich culture of the region and enjoy outdoor activities such as kayaking and wildlife watching in this remote paradise.",
+      "duration": "6 days",
+      "image": "/src/assets/Adventure/patagonia.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Hiking",
+        "Kayaking",
+        "Wildlife watching",
+        "Glacier tours",
+        "National park exploration",
+        "Horseback riding",
+        "Local cuisine"
+      ],
+      "id": "9911"
+    },
+    {
+      "name": "Costa Rica",
+      "rating": 4.7,
+      "price": "$1500",
+      "description": "Explore lush rainforests and stunning beaches in Costa Rica. Discover the incredible biodiversity, from vibrant wildlife to exotic plants, while enjoying activities like zip-lining, surfing, and hiking. Relax in natural hot springs and immerse yourself in the rich culture and hospitality of this Central American gem.",
+      "duration": "10 days",
+      "image": "/src/assets/Adventure/costa.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Zip-lining",
+        "Surfing",
+        "Hiking",
+        "Hot springs",
+        "Wildlife watching",
+        "Rainforest exploration",
+        "Cultural experiences"
+      ],
+      "id": "9026"
+    },
+    {
+      "name": "Banff",
+      "rating": 4.9,
+      "price": "$1800",
+      "description": "Discover breathtaking mountain landscapes in Banff National Park, Canada. Enjoy outdoor activities such as hiking, skiing, and wildlife viewing in this stunning natural setting. Explore the charming town of Banff, relax in hot springs, and take in the spectacular views of the Canadian Rockies.",
+      "duration": "5 days",
+      "image": "/src/assets/Adventure/banff.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Hiking",
+        "Skiing",
+        "Wildlife viewing",
+        "Hot springs",
+        "Lake cruises",
+        "Canoeing",
+        "Sightseeing in Banff town"
+      ],
+      "id": "3535"
+    },
+    {
+      "name": "New Zealand",
+      "rating": 4.8,
+      "price": "$2200",
+      "description": "Experience diverse landscapes and adventure sports in New Zealand. From the stunning fjords of Milford Sound to the geothermal wonders of Rotorua, New Zealand offers a variety of breathtaking scenery. Engage in thrilling activities like bungee jumping, hiking, and exploring vibrant Maori culture during your 14-day adventure.",
+      "duration": "14 days",
+      "image": "/src/assets/Adventure/zealand.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Bungee jumping",
+        "Hiking",
+        "Milford Sound cruise",
+        "Waitomo Caves exploration",
+        "Rotorua geothermal wonders",
+        "Maori culture experience",
+        "Skydiving",
+        "Jet boating"
+      ],
+      "id": "73cf"
+    },
+    {
+      "name": "Iceland",
+      "rating": 4.7,
+      "price": "$2000",
+      "description": "Witness stunning natural wonders and unique landscapes in Iceland. Explore geysers, waterfalls, and black sand beaches, and soak in the famous Blue Lagoon. Experience the vibrant culture of Reykjavik and, if you're lucky, catch a glimpse of the Northern Lights during your unforgettable 8-day journey.",
+      "duration": "8 days",
+      "image": "/src/assets/Adventure/iceland.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Exploring geysers (Geysir, Strokkur)",
+        "Waterfalls (Gullfoss, Skogafoss)",
+        "Black sand beaches (Reynisfjara)",
+        "Blue Lagoon",
+        "Northern Lights viewing (seasonal)",
+        "Glacier hiking",
+        "Reykjavik city exploration"
+      ],
+      "id": "3718"
+    },
+    {
+      "name": "Swiss Alps",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Ski and hike in the majestic Swiss Alps. Experience world-class skiing in winter and breathtaking hiking trails in summer. Enjoy the charming alpine villages, indulge in Swiss cuisine, and take in the stunning views of snow-capped peaks and lush valleys during your 7-day adventure.",
+      "duration": "7 days",
+      "image": "/src/assets/Adventure/swiss.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Skiing/Snowboarding",
+        "Hiking",
+        "Scenic train rides",
+        "Charming village visits",
+        "Swiss cuisine",
+        "Lake Geneva cruises"
+      ],
+      "id": "6334"
+    },
+    {
+      "name": "Machu Picchu",
+      "rating": 4.8,
+      "price": "$2300",
+      "description": "Trek to the ancient ruins of Machu Picchu in Peru. Experience the breathtaking Inca Trail, explore the rich history of this UNESCO World Heritage site, and enjoy stunning views of the Andes mountains. Immerse yourself in the local culture and savor traditional Peruvian cuisine during your 6-day journey.",
+      "duration": "6 days",
+      "image": "/src/assets/Adventure/micha.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Inca Trail trek",
+        "Exploring Machu Picchu",
+        "Visiting Cusco",
+        "Sacred Valley exploration",
+        "Local cuisine",
+        "Cultural experiences"
+      ],
+      "id": "fea7"
+    },
+    {
+      "name": "Grand Canyon",
+      "rating": 4.7,
+      "price": "$1600",
+      "description": "Explore the stunning landscapes of the Grand Canyon, USA. Hike along the rim, take a guided tour, or enjoy a thrilling helicopter ride for breathtaking views. Experience the vastness of this natural wonder, witness the changing colors of the canyon at sunset, and learn about the rich geological history of the area during your 5-day adventure.",
+      "duration": "5 days",
+      "image": "/src/assets/Adventure/canyon.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Hiking",
+        "Guided tours",
+        "Helicopter tours",
+        "Sunset viewing",
+        "Whitewater rafting",
+        "Mule rides"
+      ],
+      "id": "d5cd"
+    },
+    {
+      "name": "Zion National Park",
+      "rating": 4.8,
+      "price": "$1400",
+      "description": "Hike through the stunning canyons of Zion National Park, Utah. Experience breathtaking views, unique rock formations, and diverse wildlife as you explore the park's many trails. Enjoy activities like canyoneering and rock climbing, and immerse yourself in the natural beauty of this iconic destination during your 4-day adventure.",
+      "duration": "4 days",
+      "image": "/src/assets/Adventure/zion.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Hiking",
+        "Canyoneering",
+        "Rock climbing",
+        "Scenic drives",
+        "Wildlife viewing",
+        "Stargazing"
+      ],
+      "id": "0693"
+    },
+    {
+      "name": "Galapagos Islands",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Discover unique wildlife in the Galapagos Islands. Explore the archipelago's diverse ecosystems, from volcanic landscapes to pristine beaches. Enjoy snorkeling with sea lions, hiking to see giant tortoises, and experiencing the rich biodiversity that inspired Charles Darwin during your 10-day adventure.",
+      "duration": "10 days",
+      "image": "/src/assets/Adventure/galapagos.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Snorkeling with sea lions",
+        "Hiking",
+        "Giant tortoise encounters",
+        "Island hopping",
+        "Scuba diving",
+        "Bird watching"
+      ],
+      "id": "ce37"
+    },
+    {
+      "name": "Norwegian Fjords",
+      "rating": 4.8,
+      "price": "$2200",
+      "description": "Experience the stunning beauty of the Norwegian Fjords. Cruise through breathtaking landscapes, hike to scenic viewpoints, and explore charming coastal villages. Enjoy outdoor activities like kayaking and fishing, and immerse yourself in the rich culture and history of this picturesque region during your 7-day adventure.",
+      "duration": "7 days",
+      "image": "/src/assets/Adventure/fjords.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Fjords cruise",
+        "Hiking",
+        "Kayaking",
+        "Fishing",
+        "Village exploration",
+        "Viking history learning"
+      ],
+      "id": "afc8"
+    },
+    {
+      "name": "Sahara Desert",
+      "rating": 4.7,
+      "price": "$1800",
+      "description": "Adventure through the vast landscapes of the Sahara Desert. Experience camel trekking, sleep under the stars in a traditional Berber camp, and explore ancient oases. Discover the unique culture of the desert tribes and enjoy breathtaking sunsets over the dunes during your 5-day journey.",
+      "duration": "5 days",
+      "image": "/src/assets/Adventure/sahara.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Camel trekking",
+        "Desert camping",
+        "Oasis exploration",
+        "Berber culture experience",
+        "Stargazing",
+        "Sandboarding"
+      ],
+      "id": "9423"
+    },
+    {
+      "name": "Yellowstone National Park",
+      "rating": 4.9,
+      "price": "$1700",
+      "description": "Explore the geothermal features and wildlife of Yellowstone National Park. Discover iconic sites like Old Faithful, vibrant hot springs, and diverse wildlife including bison and wolves. Enjoy hiking trails, scenic drives, and the breathtaking beauty of this natural wonderland during your 6-day adventure.",
+      "duration": "6 days",
+      "image": "/src/assets/Adventure/yellowstone.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Old Faithful geyser",
+        "Hot springs",
+        "Wildlife viewing (bison, elk, wolves)",
+        "Hiking",
+        "Scenic drives",
+        "Grand Prismatic Spring"
+      ],
+      "id": "3b7c"
+    },
+    {
+      "name": "Borneo",
+      "rating": 4.8,
+      "price": "$2100",
+      "description": "Discover the unique wildlife and rainforests of Borneo. Explore lush jungles, home to orangutans, pygmy elephants, and diverse flora. Enjoy river cruises, guided treks, and cultural experiences with indigenous communities, making it a perfect destination for nature lovers during your 8-day adventure.",
+      "duration": "8 days",
+      "image": "/src/assets/Adventure/borneo.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Jungle trekking",
+        "Orangutan spotting",
+        "River cruises",
+        "Cultural experiences",
+        "Wildlife viewing",
+        "Bird watching"
+      ],
+      "id": "6cb1"
+    }
+  ],
+  "Beach": [
+    {
+      "name": "Maldives",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Relax on the pristine beaches and enjoy luxury resorts in the Maldives. With crystal-clear waters and vibrant coral reefs, it's a paradise for snorkeling and diving enthusiasts. Indulge in spa treatments and savor gourmet dining while surrounded by breathtaking ocean views.",
+      "duration": "7 days",
+      "image": "/src/assets/images/maldives.jpg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Snorkeling",
+        "Diving",
+        "Water sports",
+        "Island hopping",
+        "Sunset cruises",
+        "Spa treatments"
+      ],
+      "id": "145e"
+    },
+    {
+      "name": "Bora Bora",
+      "rating": 4.8,
+      "price": "$3500",
+      "description": "Experience the stunning beauty of Bora Bora's turquoise waters. Known for its luxurious overwater bungalows, this island offers a romantic getaway with opportunities for water sports, sunset cruises, and exploring the lush interior.",
+      "duration": "6 days",
+      "image": "/src/assets/Beaches/bora.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Overwater bungalow stays",
+        "Snorkeling",
+        "Diving",
+        "Jet skiing",
+        "Paddleboarding",
+        "Lagoon tours",
+        "Hiking"
+      ],
+      "id": "8896"
+    },
+    {
+      "name": "Phuket",
+      "rating": 4.7,
+      "price": "$1200",
+      "description": "Enjoy vibrant nightlife and beautiful beaches in Phuket, Thailand. From lively beach clubs to serene coves, Phuket offers a mix of relaxation and adventure. Explore local markets, indulge in Thai cuisine, and take part in exciting water activities.",
+      "duration": "10 days",
+      "image": "/src/assets/Beaches/phuket.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach hopping",
+        "Island hopping",
+        "Snorkeling",
+        "Diving",
+        "Elephant sanctuaries",
+        "Thai cooking classes",
+        "Nightlife"
+      ],
+      "id": "2dc1"
+    },
+    {
+      "name": "Maui",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Explore the stunning beaches and lush landscapes of Maui, Hawaii. Known for its diverse ecosystems, you can hike through rainforests, visit volcanic craters, and relax on golden sandy beaches. Don't miss the scenic Road to Hana for breathtaking views.",
+      "duration": "7 days",
+      "image": "/src/assets/Beaches/maui.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Road to Hana",
+        "Hiking",
+        "Whale watching (seasonal)",
+        "Snorkeling",
+        "Surfing",
+        "Visiting Haleakala National Park"
+      ],
+      "id": "719c"
+    },
+    {
+      "name": "Cancun",
+      "rating": 4.8,
+      "price": "$1500",
+      "description": "Relax on the beautiful beaches and enjoy the vibrant culture of Cancun. With its lively atmosphere, Cancun is perfect for beach parties, water sports, and exploring ancient Mayan ruins nearby. Experience the local nightlife and delicious cuisine.",
+      "duration": "5 days",
+      "image": "/src/assets/Beaches/cancun.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach parties",
+        "Snorkeling",
+        "Diving",
+        "Mayan ruins (Chichen Itza, Tulum)",
+        "Cenote swimming",
+        "Nightlife"
+      ],
+      "id": "9b94"
+    },
+    {
+      "name": "Seychelles",
+      "rating": 4.9,
+      "price": "$3200",
+      "description": "Discover the stunning beaches and unique wildlife of Seychelles. This archipelago is famous for its granite boulders, white sandy beaches, and rich biodiversity. Enjoy island hopping, snorkeling, and exploring nature reserves.",
+      "duration": "8 days",
+      "image": "/src/assets/Beaches/seychelles.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Island hopping",
+        "Snorkeling",
+        "Diving",
+        "Hiking",
+        "Nature reserves (Vallee de Mai)",
+        "Beach relaxation"
+      ],
+      "id": "356b"
+    },
+    {
+      "name": "Gold Coast",
+      "rating": 4.7,
+      "price": "$1800",
+      "description": "Enjoy the sun and surf on the beautiful Gold Coast of Australia. Known for its theme parks, surfing spots, and vibrant nightlife, the Gold Coast is perfect for families and adventure seekers alike. Relax on the beach or explore the hinterland.",
+      "duration": "6 days",
+      "image": "/src/assets/Beaches/gold.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Surfing",
+        "Theme parks (Warner Bros. Movie World, Dreamworld)",
+        "Hiking",
+        "Hinterland exploration",
+        "Beach relaxation"
+      ],
+      "id": "d695"
+    },
+    {
+      "name": "Bali",
+      "rating": 4.8,
+      "price": "$1400",
+      "description": "Experience the beautiful beaches and rich culture of Bali, Indonesia. From surfing in Kuta to the tranquil beaches of Ubud, Bali offers a unique blend of relaxation and adventure. Explore temples, rice terraces, and indulge in traditional Balinese spa treatments.",
+      "duration": "10 days",
+      "image": "/src/assets/Beaches/bali.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Surfing",
+        "Rice paddy trekking",
+        "Temple visits (Uluwatu Temple, Tanah Lot)",
+        "Yoga",
+        "Spa treatments",
+        "Volcano hiking"
+      ],
+      "id": "a7c1"
+    },
+    {
+      "name": "Barbados",
+      "rating": 4.9,
+      "price": "$2000",
+      "description": "Relax on the stunning beaches and enjoy the vibrant culture of Barbados. Known for its friendly locals and rich history, you can explore historic sites, enjoy local music, and savor delicious Caribbean cuisine while lounging on the beach.",
+      "duration": "7 days",
+      "image": "/src/assets/Beaches/barbados.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach relaxation",
+        "Snorkeling",
+        "Diving",
+        "Exploring historical sites (Harrison's Cave, etc.)",
+        "Local music and cuisine"
+      ],
+      "id": "9a16"
+    },
+    {
+      "name": "Santorini",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Enjoy breathtaking views and beautiful beaches in Santorini, Greece. Famous for its white-washed buildings and stunning sunsets, Santorini offers a romantic atmosphere. Explore ancient ruins, indulge in local wines, and relax on unique beaches with volcanic sand. The island's rich history and vibrant culture make it a perfect destination for both relaxation and exploration.",
+      "duration": "6 days",
+      "image": "/src/assets/Beaches/santorini.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Exploring Santorini's towns (Oia, Fira)",
+        "Sunset views",
+        "Wine tasting",
+        "Beach hopping",
+        "Ancient ruins (Akrotiri)",
+        "Hiking"
+      ],
+      "id": "d2b1"
+    },
+    {
+      "name": "Miami",
+      "rating": 4.7,
+      "price": "$1600",
+      "description": "Experience the vibrant nightlife and beautiful beaches of Miami, Florida. Known for its Art Deco architecture and lively atmosphere, Miami offers a mix of cultural experiences, shopping, and outdoor activities. Enjoy beach parties, world-class dining, and explore the nearby Everglades.",
+      "duration": "5 days",
+      "image": "/src/assets/Beaches/miami.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach parties",
+        "Art Deco district exploration",
+        "South Beach",
+        "Shopping on Ocean Drive",
+        "Everglades tours",
+        "Cuban culture"
+      ],
+      "id": "6c1d"
+    },
+    {
+      "name": "Tulum",
+      "rating": 4.8,
+      "price": "$1700",
+      "description": "Explore the stunning beaches and ancient ruins of Tulum, Mexico. This eco-chic destination is known for its bohemian vibe, beautiful cenotes, and Mayan ruins overlooking the Caribbean Sea. Enjoy yoga retreats, fresh local cuisine, and a laid-back atmosphere.",
+      "duration": "6 days",
+      "image": "/src/assets/Beaches/tulum.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach relaxation",
+        "Exploring Tulum ruins",
+        "Cenote swimming",
+        "Yoga retreats",
+        "Local cuisine",
+        "Exploring the Riviera Maya"
+      ],
+      "id": "9798"
+    },
+    {
+      "name": "Nice",
+      "rating": 4.9,
+      "price": "$2200",
+      "description": "Relax on the beautiful beaches and enjoy the Mediterranean charm of Nice, France. With its stunning coastline, vibrant markets, and rich art history, Nice is perfect for leisurely strolls along the Promenade des Anglais, exploring local cuisine, and soaking up the sun.",
+      "duration": "7 days",
+      "image": "/src/assets/Beaches/nice.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Promenade des Anglais",
+        "Beach relaxation",
+        "Exploring Old Town (Vieux Nice)",
+        "Museums (Musée Matisse, Musée Marc Chagall)",
+        "Markets (Cours Saleya)",
+        "Local cuisine"
+      ],
+      "id": "eb50"
+    },
+    {
+      "name": "Cabo San Lucas",
+      "rating": 4.8,
+      "price": "$1900",
+      "description": "Enjoy stunning beaches and vibrant nightlife in Cabo San Lucas, Mexico. Known for its dramatic rock formations and lively atmosphere, Cabo offers a range of activities from whale watching to beach lounging. Experience delicious seafood and vibrant local culture.",
+      "duration": "5 days",
+      "image": "/src/assets/Beaches/cabo.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Whale watching (seasonal)",
+        "Beach relaxation",
+        "Water sports",
+        "Nightlife",
+        "Exploring the Marina",
+        "Local cuisine"
+      ],
+      "id": "9a61"
+    },
+    {
+      "name": "Koh Samui",
+      "rating": 4.7,
+      "price": "$1300",
+      "description": "Experience the beautiful beaches and lush landscapes of Koh Samui, Thailand. This tropical paradise is known for its palm-fringed beaches, luxury resorts, and vibrant nightlife. Explore waterfalls, indulge in spa treatments, and enjoy delicious Thai cuisine.",
+      "duration": "10 days",
+      "image": "/src/assets/Beaches/kai.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Beach relaxation",
+        "Island hopping",
+        "Waterfalls (Na Muang Waterfall)",
+        "Spa treatments",
+        "Elephant sanctuaries",
+        "Thai cuisine"
+      ],
+      "id": "babf"
+    }
+  ],
+  "Cultural Holidays": [
+    {
+      "name": "Kyoto",
+      "rating": 4.9,
+      "price": "$2000",
+      "description": "Immerse yourself in the rich history and stunning temples of Kyoto, Japan. Wander through the serene gardens, visit the iconic Kinkaku-ji (Golden Pavilion), and experience traditional tea ceremonies. Enjoy the vibrant culture and exquisite cuisine that this ancient city has to offer.",
+      "duration": "7 days",
+      "image": "/src/assets/Cultural/kyoto.jpeg",
+      "activities": [
+        "Visit Kinkaku-ji.",
+        "Explore Fushimi Inari Shrine.",
+        "Stroll through Arashiyama Bamboo Grove.",
+        "Experience a tea ceremony.",
+        "Visit Nijo Castle.",
+        "Enjoy Kyoto cuisine."
+      ],
+      "id": "2e2f"
+    },
+    {
+      "name": "Rome",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Discover the ancient ruins and vibrant culture of Rome, Italy. Explore the Colosseum, the Roman Forum, and the Vatican City, home to St. Peter's Basilica and the Sistine Chapel. Savor authentic Italian cuisine in charming trattorias and enjoy the lively atmosphere of this historic city.",
+      "duration": "6 days",
+      "image": "/src/assets/Cultural/rome.jpeg",
+      "activities": [
+        "Visit the Colosseum.",
+        "Explore the Roman Forum.",
+        "Tour Vatican City.",
+        "Admire the Sistine Chapel.",
+        "Enjoy gelato at a local shop.",
+        "Stroll through Trastevere."
+      ],
+      "id": "a9d9"
+    },
+    {
+      "name": "Istanbul",
+      "rating": 4.7,
+      "price": "$1800",
+      "description": "Experience the unique blend of East and West in Istanbul, Turkey. Visit the majestic Hagia Sophia, the bustling Grand Bazaar, and the stunning Blue Mosque. Enjoy a cruise on the Bosphorus and indulge in delicious Turkish delights and traditional dishes.",
+      "duration": "8 days",
+      "image": "/src/assets/Cultural/istanbul.jpeg",
+      "activities": [
+        "Visit Hagia Sophia.",
+        "Explore the Grand Bazaar.",
+        "See the Blue Mosque.",
+        "Take a Bosphorus cruise.",
+        "Try Turkish delight.",
+        "Visit Topkapi Palace."
+      ],
+      "id": "0949"
+    },
+    {
+      "name": "Machu Picchu",
+      "rating": 4.9,
+      "price": "$2300",
+      "description": "Explore the ancient Incan city of Machu Picchu in Peru. Hike the Inca Trail or take the scenic train ride to this UNESCO World Heritage site. Marvel at the breathtaking views and learn about the fascinating history of the Incas while surrounded by stunning mountain landscapes.",
+      "duration": "6 days",
+      "image": "/src/assets/Cultural/micha.jpeg",
+      "activities": [
+        "Hike the Inca Trail.",
+        "Take the train to Machu Picchu.",
+        "Explore the ruins.",
+        "Visit the Sun Gate.",
+        "Learn about Incan history.",
+        "Enjoy local Peruvian cuisine."
+      ],
+      "id": "48c8"
+    },
+    {
+      "name": "Cairo",
+      "rating": 4.8,
+      "price": "$1900",
+      "description": "Discover the wonders of ancient Egypt in Cairo. Visit the iconic Pyramids of Giza, the Sphinx, and the Egyptian Museum, which houses a vast collection of antiquities. Experience the vibrant local markets and savor traditional Egyptian cuisine.",
+      "duration": "5 days",
+      "image": "/src/assets/Cultural/cairo.jpeg",
+      "activities": [
+        "Visit the Pyramids of Giza.",
+        "See the Sphinx.",
+        "Explore the Egyptian Museum.",
+        "Shop in local markets.",
+        "Try traditional Egyptian dishes.",
+        "Take a Nile River cruise."
+      ],
+      "id": "d573"
+    },
+    {
+      "name": "Paris",
+      "rating": 4.9,
+      "price": "$2700",
+      "description": "Experience the art, fashion, and history of Paris, France. Visit the Louvre, stroll along the Seine, and admire the Eiffel Tower. Enjoy world-class dining and explore charming neighborhoods like Montmartre and Le Marais.",
+      "duration": "7 days",
+      "image": "/src/assets/Cultural/paris.jpeg",
+      "activities": [
+        "Visit the Louvre.",
+        "Stroll along the Seine.",
+        "See the Eiffel Tower.",
+        "Explore Montmartre.",
+        "Dine in a local bistro.",
+        "Visit Notre-Dame Cathedral."
+      ],
+      "id": "31c1"
+    },
+    {
+      "name": "Beijing",
+      "rating": 4.7,
+      "price": "$1600",
+      "description": "Explore the rich history and culture of Beijing, China. Visit the Great Wall, the Forbidden City, and the Temple of Heaven. Experience traditional Peking duck and explore the vibrant hutongs that showcase local life.",
+      "duration": "10 days",
+      "image": "/src/assets/Cultural/beijing.jpeg",
+      "activities": [
+        "Visit the Great Wall.",
+        "Explore the Forbidden City.",
+        "See the Temple of Heaven.",
+        "Try Peking duck.",
+        "Wander through hutongs.",
+        "Visit Tiananmen Square."
+      ],
+      "id": "5e08"
+    },
+    {
+      "name": "Agra",
+      "rating": 4.8,
+      "price": "$1500",
+      "description": "Visit the iconic Taj Mahal and experience the culture of Agra, India. Explore the Agra Fort and enjoy the local cuisine, including delicious Mughlai dishes. Witness the beauty of the Taj Mahal at sunrise or sunset for an unforgettable experience.",
+      "duration": "4 days",
+      "image": "/src/assets/Cultural/agra.jpeg",
+      "activities": [
+        "Visit the Taj Mahal.",
+        "Explore Agra Fort.",
+        "Try Mughlai cuisine.",
+        "See the Taj Mahal at sunrise.",
+        "Shop for local handicrafts.",
+        "Visit Mehtab Bagh."
+      ],
+      "id": "e006"
+    },
+    {
+      "name": "Athens",
+      "rating": 4.9,
+      "price": "$2000",
+      "description": "Discover the ancient ruins and vibrant culture of Athens, Greece. Visit the Acropolis, the Parthenon, and the ancient Agora. Enjoy the lively atmosphere of Plaka and indulge in delicious Greek cuisine at local tavernas.",
+      "duration": "6 days",
+      "image": "/src/assets/Cultural/athens.jpeg",
+      "activities": [
+        "Visit the Acropolis.",
+        "See the Parthenon.",
+        "Explore the ancient Agora.",
+        "Stroll through Plaka.",
+        "Try Greek meze.",
+        "Visit the National Archaeological Museum."
+      ],
+      "id": "c484"
+    },
+    {
+      "name": "Jerusalem",
+      "rating": 4.8,
+      "price": "$2100",
+      "description": "Explore the historical and religious significance of Jerusalem. Visit the Western Wall, the Dome of the Rock, and the Church of the Holy Sepulchre. Experience the rich tapestry of cultures and traditions that coexist in this ancient city, and enjoy the local cuisine that reflects its diverse heritage.",
+      "duration": "5 days",
+      "image": "/src/assets/Cultural/jerusalem.jpeg",
+      "activities": [
+        "Visit the Western Wall.",
+        "See the Dome of the Rock.",
+        "Explore the Church of the Holy Sepulchre.",
+        "Wander through the Old City.",
+        "Try local Middle Eastern dishes.",
+        "Visit Yad Vashem."
+      ],
+      "id": "3b86"
+    },
+    {
+      "name": "Lisbon",
+      "rating": 4.7,
+      "price": "$1700",
+      "description": "Experience the rich history and culture of Lisbon, Portugal. Explore the historic neighborhoods of Alfama and Bairro Alto, visit the iconic Belém Tower, and indulge in delicious pastéis de nata. Enjoy stunning views from the city's many miradouros (viewpoints) and immerse yourself in the vibrant local music scene.",
+      "duration": "7 days",
+      "image": "/src/assets/Cultural/lisbon.jpeg",
+      "activities": [
+        "Explore Alfama neighborhood.",
+        "Visit Belém Tower.",
+        "Try pastéis de nata.",
+        "Enjoy Fado music.",
+        "Take a tram ride.",
+        "Visit the Jerónimos Monastery."
+      ],
+      "id": "3a6a"
+    },
+    {
+      "name": "Mexico City",
+      "rating": 4.8,
+      "price": "$1800",
+      "description": "Explore the vibrant culture and history of Mexico City. Visit the ancient ruins of Teotihuacan, the historic center, and the Frida Kahlo Museum. Savor the diverse culinary offerings, from street tacos to fine dining, and experience the lively atmosphere of this bustling metropolis.",
+      "duration": "6 days",
+      "image": "/src/assets/Cultural/mexico.jpeg",
+      "activities": [
+        "Visit Teotihuacan.",
+        "Explore the historic center.",
+        "See the Frida Kahlo Museum.",
+        "Try street tacos.",
+        "Visit Chapultepec Park.",
+        "Explore local markets."
+      ],
+      "id": "df23"
+    },
+    {
+      "name": "Havana",
+      "rating": 4.9,
+      "price": "$1600",
+      "description": "Experience the rich culture and history of Havana, Cuba. Stroll through the colorful streets of Old Havana, visit the iconic Malecón, and enjoy live music in the vibrant plazas. Discover the unique architecture and savor traditional Cuban cuisine, including the famous ropa vieja.",
+      "duration": "5 days",
+      "image": "/src/assets/Cultural/havana.jpeg",
+      "activities": [
+        "Explore Old Havana.",
+        "Visit the Malecón.",
+        "Enjoy live music in plazas.",
+        "Try ropa vieja.",
+        "Visit the Museum of the Revolution.",
+        "Take a classic car tour."
+      ],
+      "id": "85ce"
+    },
+    {
+      "name": "Budapest",
+      "rating": 4.8,
+      "price": "$1900",
+      "description": "Discover the stunning architecture and culture of Budapest, Hungary. Visit the historic Buda Castle, soak in the famous thermal baths, and take a cruise on the Danube River. Enjoy the local cuisine, including goulash and chimney cake, while exploring the city's vibrant nightlife.",
+      "duration": "7 days",
+      "image": "/src/assets/Cultural/budapest.jpeg",
+      "activities": [
+        "Visit Buda Castle.",
+        "Soak in thermal baths.",
+        "Take a Danube River cruise.",
+        "Try goulash.",
+        "Explore the ruin bars.",
+        "Visit the Hungarian Parliament."
+      ],
+      "id": "1367"
+    }
+  ],
+  "Luxury": [
+    {
+      "name": "Dubai",
+      "rating": 4.9,
+      "price": "$4000",
+      "description": "Experience luxury shopping, fine dining, and stunning architecture in Dubai. Explore the iconic Burj Khalifa, indulge in world-class shopping at the Dubai Mall, and relax on the beautiful beaches. Enjoy a desert safari and savor gourmet meals at renowned restaurants, all while soaking in the vibrant atmosphere of this modern metropolis.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/dubai.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Visit the Burj Khalifa.",
+        "Shop at the Dubai Mall.",
+        "Take a desert safari.",
+        "Relax on Jumeirah Beach.",
+        "Explore Al Fahidi neighborhood.",
+        "Dine at a rooftop restaurant.",
+        "Visit the Dubai Aquarium.",
+        "Take a hot air balloon ride.",
+        "Explore the Miracle Garden.",
+        "Ski indoors at Ski Dubai.",
+        "Enjoy an Arabic dinner in the desert.",
+        "Visit the Global Village."
+      ],
+      "id": "72ea"
+    },
+    {
+      "name": "Maldives",
+      "rating": 4.8,
+      "price": "$5000",
+      "description": "Indulge in luxury resorts and pristine beaches in the Maldives. Stay in overwater bungalows surrounded by crystal-clear waters, enjoy spa treatments, and partake in water sports like snorkeling and diving. Experience the breathtaking sunsets and savor exquisite cuisine while being pampered in a tropical paradise.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/maldives.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Go snorkeling.",
+        "Try diving.",
+        "Enjoy water sports.",
+        "Island hop.",
+        "Take a sunset cruise.",
+        "Get a spa treatment.",
+        "Dolphin cruise at sunset.",
+        "Have a beach picnic.",
+        "Go fishing.",
+        "Visit a local island.",
+        "Paddleboard at sunrise.",
+        "Night snorkeling tour."
+      ],
+      "id": "c524"
+    },
+    {
+      "name": "Bora Bora",
+      "rating": 4.9,
+      "price": "$6000",
+      "description": "Stay in overwater bungalows and enjoy the stunning views of Bora Bora. Experience the vibrant coral reefs, partake in water activities like paddleboarding and snorkeling, and relax on the soft sandy beaches. Enjoy romantic dinners under the stars and immerse yourself in the natural beauty of this idyllic island.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/bora.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Snorkel in clear waters.",
+        "Take a boat tour.",
+        "Relax on Matira Beach.",
+        "Enjoy a Polynesian dinner.",
+        "Paddleboard in the lagoon.",
+        "Take a helicopter tour.",
+        "Jet ski around the island.",
+        "Visit Coral Gardens.",
+        "Watch a cultural show.",
+        "Feed sharks and rays.",
+        "Get a couples' massage.",
+        "Bike around the island."
+      ],
+      "id": "46df"
+    },
+    {
+      "name": "Santorini",
+      "rating": 4.8,
+      "price": "$4500",
+      "description": "Enjoy luxury accommodations and breathtaking views in Santorini, Greece. Explore the charming villages with their iconic white-washed buildings, relax in infinity pools overlooking the caldera, and savor delicious Mediterranean cuisine. Experience stunning sunsets that paint the sky in vibrant colors, making your stay truly unforgettable.",
+      "duration": "5 days",
+      "image": "/src/assets/Luxury/santorini.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Visit Akrotiri ruins.",
+        "Wine tasting at vineyards.",
+        "Take a sunset cruise.",
+        "Explore Oia village.",
+        "Relax in an infinity pool.",
+        "Savor Greek cuisine.",
+        "Tour local wineries.",
+        "Visit black sand beaches.",
+        "Take a cooking class.",
+        "Boat trip to volcanic islands.",
+        "Shop for souvenirs.",
+        "Enjoy local art galleries."
+      ],
+      "id": "12bd"
+    },
+    {
+      "name": "Paris",
+      "rating": 4.9,
+      "price": "$5500",
+      "description": "Experience the romance and luxury of Paris, France. Visit world-renowned landmarks like the Eiffel Tower and the Louvre, enjoy leisurely strolls along the Seine, and dine in Michelin-starred restaurants. Discover the charm of Parisian cafes and indulge in exquisite pastries while soaking in the city's artistic ambiance.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/paris.jpeg",
+      "flightsIncluded": "2 flights included",
+      "activities": [
+        "Visit the Eiffel Tower.",
+        "Explore the Louvre Museum.",
+        "Stroll along the Seine.",
+        "Dine in a Michelin-starred restaurant.",
+        "Relax in a Parisian café.",
+        "Indulge in pastries.",
+        "Take a Seine river cruise.",
+        "Visit Montmartre.",
+        "Explore the Palace of Versailles.",
+        "Shop on the Champs-Élysées.",
+        "Enjoy a wine tasting.",
+        "Attend a cabaret show."
+      ],
+      "id": "437f"
+    }
+  ],
+  "Romantic": [
+    {
+      "name": "Paris",
+      "rating": 4.9,
+      "price": "$2700",
+      "description": "Experience the romance and charm of Paris, the city of love. Stroll hand-in-hand along the Seine, visit iconic landmarks like the Eiffel Tower and Notre-Dame, and indulge in exquisite French cuisine at charming bistros. Enjoy a sunset cruise on the river and explore the artistic treasures of the Louvre, making your stay truly unforgettable.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/paris.jpeg",
+      "activities": [
+        "Seine River cruise",
+        "Eiffel Tower visits",
+        "Dining at bistros",
+        "Louvre tours",
+        "Picnic in parks",
+        "Wine tasting"
+      ],
+      "id": "e9a8"
+    },
+    {
+      "name": "Venice",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Enjoy a romantic gondola ride through the canals of Venice. Discover the enchanting architecture of this floating city, visit St. Mark's Basilica, and savor authentic Italian gelato. Explore the narrow streets and hidden squares, and experience the vibrant atmosphere of local markets, making every moment magical.",
+      "duration": "5 days",
+      "image": "/src/assets/Luxury/venice.jpeg",
+      "activities": [
+        "Gondola rides",
+        "St. Mark's Basilica visits",
+        "Gelato tasting",
+        "Exploring local markets",
+        "Dining by the canals",
+        "Photography"
+      ],
+      "id": "5019"
+    },
+    {
+      "name": "Santorini",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Relax in luxury villas with stunning sunset views in Santorini. Enjoy the breathtaking landscapes, explore the charming villages of Oia and Fira, and indulge in delicious Mediterranean cuisine. Experience the unique volcanic beaches and unwind in your private infinity pool while watching the sun dip below the horizon.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/santorini.jpeg",
+      "activities": [
+        "Sunset watching",
+        "Wine tasting",
+        "Beach lounging",
+        "Dining with views",
+        "Exploring Oia",
+        "Private pool relaxation"
+      ],
+      "id": "0281"
+    },
+    {
+      "name": "Bora Bora",
+      "rating": 4.8,
+      "price": "$4000",
+      "description": "Stay in overwater bungalows and enjoy the beauty of Bora Bora. Snorkel in crystal-clear waters, relax on pristine beaches, and savor gourmet meals with a view of the stunning lagoon. Experience the vibrant marine life and indulge in spa treatments, creating a perfect romantic getaway.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/bora.jpeg",
+      "activities": [
+        "Snorkeling",
+        "Spa treatments",
+        "Dining with lagoon views",
+        "Beach relaxation",
+        "Water sports",
+        "Sunset cruises"
+      ],
+      "id": "ae00"
+    },
+    {
+      "name": "Maldives",
+      "rating": 4.9,
+      "price": "$5000",
+      "description": "Indulge in a romantic getaway on the pristine beaches of the Maldives. Stay in luxurious beachfront villas, enjoy candlelit dinners on the sand, and explore vibrant coral reefs. Experience the tranquility of this tropical paradise, where every moment is designed for relaxation and romance.",
+      "duration": "8 days",
+      "image": "/src/assets/Luxury/maldives.jpeg",
+      "activities": [
+        "Candlelit beach dinners",
+        "Snorkeling",
+        "Spa treatments",
+        "Private beach relaxation",
+        "Water sports",
+        "Island hopping"
+      ],
+      "id": "d370"
+    },
+    {
+      "name": "Kyoto",
+      "rating": 4.7,
+      "price": "$2200",
+      "description": "Explore the serene beauty and culture of Kyoto, Japan. Visit ancient temples, stroll through picturesque gardens, and experience traditional tea ceremonies. Discover the rich history of this city while enjoying the tranquility of its landscapes, making it a perfect romantic escape.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/kyoto.jpeg",
+      "activities": [
+        "Temple visits",
+        "Tea ceremonies",
+        "Garden strolls",
+        "Cultural experiences",
+        "Dining",
+        "Photography"
+      ],
+      "id": "0cfe"
+    },
+    {
+      "name": "Prague",
+      "rating": 4.8,
+      "price": "$2100",
+      "description": "Discover the fairy-tale charm of Prague, Czech Republic. Wander through the cobblestone streets, visit the stunning Prague Castle, and enjoy a romantic dinner by the Vltava River. Experience the city's rich history and vibrant culture, making every moment feel like a storybook adventure.",
+      "duration": "5 days",
+      "image": "/src/assets/Luxury/prague.jpeg",
+      "activities": [
+        "Castle tours",
+        "River dining",
+        "Cobblestone street walks",
+        "Cultural performances",
+        "Photography",
+        "Exploring local markets"
+      ],
+      "id": "d92c"
+    },
+    {
+      "name": "Rome",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Enjoy a romantic dinner overlooking the Colosseum in Rome. Explore ancient ruins, visit the Vatican, and indulge in authentic Italian cuisine. Stroll through charming piazzas and enjoy gelato while soaking in the rich history and vibrant atmosphere of this eternal city.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/rome.jpeg",
+      "activities": [
+        "Colosseum dining",
+        "Vatican tours",
+        "Gelato tasting",
+        "Piazza strolls",
+        "Cultural experiences",
+        "Photography"
+      ],
+      "id": "c411"
+    },
+    {
+      "name": "Tuscany",
+      "rating": 4.8,
+      "price": "$3000",
+      "description": "Experience the beautiful landscapes and wine of Tuscany in Italy. Visit charming villages, enjoy wine tastings at local vineyards, and savor delicious Italian dishes. Explore the rolling hills and picturesque countryside, creating unforgettable memories in this romantic setting.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/tuscany.jpeg",
+      "activities": [
+        "Wine tastings",
+        "Village explorations",
+        "Culinary experiences",
+        "Photography",
+        "Countryside hikes",
+        "Cooking classes"
+      ],
+      "id": "7592"
+    },
+    {
+      "name": "Amalfi Coast",
+      "rating": 4.9,
+      "price": "$3500",
+      "description": "Enjoy breathtaking views and charming villages along the Amalfi Coast. Explore the colorful cliffside towns of Positano and Ravello, relax on beautiful beaches, and savor fresh seafood at seaside restaurants. Experience the stunning landscapes and romantic ambiance that make this destination a perfect getaway.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/almafi.jpeg",
+      "activities": [
+        "Beach relaxation",
+        "Seaside dining",
+        "Village explorations",
+        "Boat tours",
+        "Photography",
+        "Hiking"
+      ],
+      "id": "229c"
+    },
+    {
+      "name": "Bali",
+      "rating": 4.8,
+      "price": "$2000",
+      "description": "Relax in luxury resorts and enjoy the beautiful beaches of Bali. Experience the island's rich culture, visit ancient temples, and indulge in rejuvenating spa treatments. Explore lush rice terraces and vibrant markets, creating a perfect blend of relaxation and adventure in this tropical paradise.",
+      "duration": "10 days",
+      "image": "/src/assets/Luxury/bali.jpeg",
+      "activities": [
+        "Temple visits",
+        "Spa treatments",
+        "Beach lounging",
+        "Rice terrace explorations",
+        "Culinary experiences",
+        "Market visits"
+      ],
+      "id": "47d7"
+    },
+    {
+      "name": "New York City",
+      "rating": 4.7,
+      "price": "$3000",
+      "description": "Experience a romantic getaway in the vibrant city of New York. Explore Central Park, enjoy a Broadway show, and dine at world-class restaurants. Discover the city's iconic skyline and vibrant neighborhoods, making every moment in the Big Apple a memorable experience.",
+      "duration": "5 days",
+      "image": "/src/assets/Luxury/newyork.jpeg",
+      "activities": [
+        "Central Park strolls",
+        "Broadway shows",
+        "Fine dining",
+        "City skyline tours",
+        "Cultural experiences",
+        "Shopping"
+      ],
+      "id": "0aa6"
+    },
+    {
+      "name": "Seychelles",
+      "rating": 4.9,
+      "price": "$4000",
+      "description": "Indulge in a romantic escape on the stunning beaches of Seychelles. Stay in luxurious beachfront villas, explore lush nature reserves, and enjoy water activities like snorkeling and diving. Experience the tranquility and beauty of this island paradise, perfect for couples seeking romance.",
+      "duration": "8 days",
+      "image": "/src/assets/Luxury/seychelles.jpeg",
+      "activities": [
+        "Beach relaxation",
+        "Snorkeling",
+        "Nature reserve explorations",
+        "Spa treatments",
+        "Candlelit dinners",
+        "Water sports"
+      ],
+      "id": "eb59"
+    },
+    {
+      "name": "Hawaii",
+      "rating": 4.8,
+      "price": "$3500",
+      "description": "Enjoy the beautiful landscapes and romantic sunsets in Hawaii. Explore the stunning beaches, hike through lush rainforests, and experience the vibrant local culture. Relax in luxury resorts and indulge in delicious Hawaiian cuisine, creating unforgettable memories in this tropical paradise.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/romantic.jpeg",
+      "activities": [
+        "Beach relaxation",
+        "Hiking",
+        "Sunset watching",
+        "Cultural experiences",
+        "Dining at local restaurants",
+        "Water sports"
+      ],
+      "id": "1808"
+    }
+  ],
+  "Historical": [
+    {
+      "name": "Rome",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Explore the ancient ruins and rich history of Rome, Italy. Walk through the Colosseum, visit the Roman Forum, and marvel at the Pantheon. Enjoy authentic Italian cuisine in charming trattorias and take leisurely strolls through the picturesque streets, soaking in the vibrant atmosphere of this historic city.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/rome.jpeg",
+      "activities": [
+        "Colosseum tours",
+        "Vatican City visits",
+        "Trattoria dining",
+        "Walking tours",
+        "Shopping",
+        "Cultural experiences"
+      ],
+      "id": "0f36"
+    },
+    {
+      "name": "Athens",
+      "rating": 4.8,
+      "price": "$2000",
+      "description": "Discover the birthplace of democracy and ancient ruins in Athens, Greece. Visit the iconic Acropolis, explore the Parthenon, and wander through the historic Plaka neighborhood. Experience the rich culture and delicious Greek cuisine while enjoying breathtaking views of the city from its many hills.",
+      "duration": "6 days",
+      "image": "/src/assets/Historical/athens.jpeg",
+      "activities": [
+        "Acropolis tours",
+        "Plaka neighborhood exploration",
+        "Greek cuisine tasting",
+        "Museum visits",
+        "Walking tours",
+        "Shopping"
+      ],
+      "id": "af50"
+    },
+    {
+      "name": "Cairo",
+      "rating": 4.7,
+      "price": "$1900",
+      "description": "Visit the Pyramids and explore the history of ancient Egypt in Cairo. Stand in awe of the Great Pyramid of Giza, visit the Sphinx, and discover the treasures of the Egyptian Museum. Experience the vibrant local markets and savor traditional Egyptian dishes, immersing yourself in the rich culture of this historic city.",
+      "duration": "5 days",
+      "image": "/src/assets/Historical/cairo.jpeg",
+      "activities": [
+        "Pyramid tours",
+        "Egyptian Museum visits",
+        "Local market exploration",
+        "Traditional dining",
+        "Camel rides",
+        "Cultural experiences"
+      ],
+      "id": "fdb5"
+    },
+    {
+      "name": "Jerusalem",
+      "rating": 4.9,
+      "price": "$2100",
+      "description": "Explore the historical and religious significance of Jerusalem. Visit the Western Wall, the Dome of the Rock, and the Church of the Holy Sepulchre. Walk through the ancient streets of the Old City and experience the diverse cultures and traditions that make this city a unique and spiritual destination.",
+      "duration": "6 days",
+      "image": "/src/assets/Historical/jerusalem.jpeg",
+      "activities": [
+        "Old City tours",
+        "Religious site visits",
+        "Cultural experiences",
+        "Local cuisine tasting",
+        "Shopping",
+        "Walking tours"
+      ],
+      "id": "1edd"
+    },
+    {
+      "name": "Machu Picchu",
+      "rating": 4.8,
+      "price": "$2300",
+      "description": "Trek to the ancient Incan city of Machu Picchu in Peru. Hike the Inca Trail or take the scenic train ride to this UNESCO World Heritage site. Marvel at the breathtaking views and learn about the fascinating history of the Incas while exploring the stunning ruins surrounded by lush mountains.",
+      "duration": "6 days",
+      "image": "/src/assets/Adventure/micha.jpeg",
+      "activities": [
+        "Inca Trail hiking",
+        "Train rides",
+        "Guided tours",
+        "Photography",
+        "Cultural experiences",
+        "Local cuisine tasting"
+      ],
+      "id": "9f09"
+    },
+    {
+      "name": "Agra",
+      "rating": 4.7,
+      "price": "$1500",
+      "description": "Visit the iconic Taj Mahal and experience the history of Agra, India. Explore the Agra Fort and enjoy the intricate Mughal architecture. Witness the beauty of the Taj Mahal at sunrise or sunset, and indulge in local cuisine, making your visit a memorable experience.",
+      "duration": "4 days",
+      "image": "/src/assets/Historical/agra.jpeg",
+      "activities": [
+        "Taj Mahal visits",
+        "Agra Fort tours",
+        "Local cuisine tasting",
+        "Photography",
+        "Shopping",
+        "Cultural experiences"
+      ],
+      "id": "79e0"
+    },
+    {
+      "name": "Petra",
+      "rating": 4.9,
+      "price": "$2200",
+      "description": "Explore the ancient city of Petra, a UNESCO World Heritage site in Jordan. Walk through the Siq to the breathtaking Treasury, and discover the rich history of this archaeological wonder. Experience the stunning rock-cut architecture and learn about the Nabateans while enjoying the unique desert landscape.",
+      "duration": "5 days",
+      "image": "/src/assets/Historical/petra.jpeg",
+      "activities": [
+        "Siq walk",
+        "Treasury exploration",
+        "Guided tours",
+        "Photography",
+        "Cultural experiences",
+        "Desert hikes"
+      ],
+      "id": "a645"
+    },
+    {
+      "name": "Beijing",
+      "rating": 4.8,
+      "price": "$1600",
+      "description": "Discover the rich history and culture of Beijing, China. Visit the Great Wall, the Forbidden City, and the Temple of Heaven. Experience traditional Peking duck and explore the vibrant hutongs that showcase local life, immersing yourself in the fascinating blend of ancient and modern culture.",
+      "duration": "10 days",
+      "image": "/src/assets/Historical/beijing.jpeg",
+      "activities": [
+        "Great Wall hikes",
+        "Forbidden City tours",
+        "Peking duck dining",
+        "Hutong explorations",
+        "Cultural performances",
+        "Shopping"
+      ],
+      "id": "9625"
+    },
+    {
+      "name": "Moscow",
+      "rating": 4.7,
+      "price": "$1800",
+      "description": "Explore the rich history and culture of Moscow, Russia. Visit the iconic Red Square, the Kremlin, and St. Basil's Cathedral. Experience the vibrant arts scene, enjoy traditional Russian cuisine, and take in the stunning architecture that reflects the city's storied past, making your visit a captivating journey through time.",
+      "duration": "6 days",
+      "image": "/src/assets/Historical/moscow.jpeg",
+      "activities": [
+        "Red Square tours",
+        "Kremlin visits",
+        "Cultural performances",
+        "Dining experiences",
+        "Shopping",
+        "Walking tours"
+      ],
+      "id": "42de"
+    },
+    {
+      "name": "Havana",
+      "rating": 4.8,
+      "price": "$1600",
+      "description": "Experience the historical charm and culture of Havana, Cuba. Stroll through the colorful streets of Old Havana, visit the iconic Malecón, and enjoy live music at local venues. Discover the rich history of the city while savoring traditional Cuban cuisine and exploring its vibrant art scene.",
+      "duration": "5 days",
+      "image": "/src/assets/Historical/havana.jpeg",
+      "activities": [
+        "Old Havana tours",
+        "Malecón visits",
+        "Live music experiences",
+        "Cuban cuisine tasting",
+        "Art gallery explorations",
+        "Cultural performances"
+      ],
+      "id": "9298"
+    },
+    {
+      "name": "Lisbon",
+      "rating": 4.9,
+      "price": "$1700",
+      "description": "Discover the rich maritime history and culture of Lisbon, Portugal. Visit the historic Belém Tower, explore the Jerónimos Monastery, and enjoy panoramic views from the São Jorge Castle. Experience the vibrant neighborhoods, indulge in delicious pastéis de nata, and immerse yourself in the city's unique charm.",
+      "duration": "7 days",
+      "image": "/src/assets/Historical/lisbon.jpeg",
+      "activities": [
+        "Belém Tower visits",
+        "Jerónimos Monastery tours",
+        "São Jorge Castle explorations",
+        "Culinary experiences",
+        "Walking tours",
+        "Shopping"
+      ],
+      "id": "fa54"
+    },
+    {
+      "name": "Budapest",
+      "rating": 4.8,
+      "price": "$1900",
+      "description": "Explore the historical architecture and culture of Budapest, Hungary. Visit the stunning Parliament building, soak in the famous thermal baths, and take a cruise on the Danube River. Discover the rich history of this beautiful city while enjoying its vibrant nightlife and delicious local cuisine.",
+      "duration": "6 days",
+      "image": "/src/assets/Historical/budapest.jpeg",
+      "activities": [
+        "Parliament building tours",
+        "Thermal bath experiences",
+        "Danube River cruises",
+        "Culinary experiences",
+        "Walking tours",
+        "Cultural performances"
+      ],
+      "id": "1ac3"
+    },
+    {
+      "name": "Delhi",
+      "rating": 4.7,
+      "price": "$1500",
+      "description": "Experience the rich history and culture of Delhi, India. Visit the historic Red Fort, explore the bustling markets of Chandni Chowk, and admire the beauty of the Lotus Temple. Discover the diverse heritage of this vibrant city while enjoying delicious street food and immersing yourself in its lively atmosphere.",
+      "duration": "5 days",
+      "image": "/src/assets/Historical/delhi.jpeg",
+      "activities": [
+        "Red Fort tours",
+        "Chandni Chowk explorations",
+        "Lotus Temple visits",
+        "Street food tasting",
+        "Cultural experiences",
+        "Shopping"
+      ],
+      "id": "70b0"
+    }
+  ],
+  "Family": [
+    {
+      "name": "Orlando",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Enjoy the magic of theme parks and family-friendly attractions in Orlando, Florida. Experience the thrill of Walt Disney World, Universal Studios, and SeaWorld, where unforgettable adventures await. Relax at beautiful resorts and enjoy a variety of dining options that cater to all tastes, making it a perfect family getaway.",
+      "duration": "7 days",
+      "image": "/src/assets/Family/orlando.jpeg",
+      "activities": [
+        "Theme park visits",
+        "Character meet-and-greets",
+        "Water parks",
+        "Shopping",
+        "Dining experiences",
+        "Mini-golf"
+      ],
+      "id": "7bdf"
+    },
+    {
+      "name": "Anaheim",
+      "rating": 4.8,
+      "price": "$2300",
+      "description": "Experience the excitement of Disneyland and other attractions in Anaheim, California. Meet beloved Disney characters, enjoy thrilling rides, and explore the enchanting lands of Disneyland Park. Discover nearby attractions like Disney California Adventure and enjoy the vibrant dining and shopping scene in the area.",
+      "duration": "6 days",
+      "image": "/src/assets/Family/anaheim.jpeg",
+      "activities": [
+        "Disneyland visits",
+        "Character dining",
+        "Shopping",
+        "Thrilling rides",
+        "Parades",
+        "Fireworks shows"
+      ],
+      "id": "2697"
+    },
+    {
+      "name": "Tokyo Disneyland",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Create unforgettable memories at Tokyo Disneyland and DisneySea. Experience unique attractions, stunning parades, and spectacular shows that blend Japanese culture with Disney magic. Enjoy delicious cuisine and shop for exclusive merchandise, all while immersing yourself in the enchanting atmosphere of these world-renowned parks.",
+      "duration": "7 days",
+      "image": "/src/assets/Family/disneyland.jpeg",
+      "activities": [
+        "Theme park visits",
+        "Cultural experiences",
+        "Shopping",
+        "Dining",
+        "Parades",
+        "Character meet-and-greets"
+      ],
+      "id": "02f3"
+    },
+    {
+      "name": "London",
+      "rating": 4.7,
+      "price": "$2000",
+      "description": "Explore family-friendly attractions like the British Museum and London Eye. Discover the rich history and culture of London while visiting iconic landmarks such as Buckingham Palace and the Tower of London. Enjoy interactive exhibits and fun activities that cater to all ages, making it a perfect destination for families.",
+      "duration": "5 days",
+      "image": "/src/assets/Family/london.jpeg",
+      "activities": [
+        "Museum visits",
+        "Sightseeing tours",
+        "Parks and gardens",
+        "Theater shows",
+        "Shopping",
+        "Dining experiences"
+      ],
+      "id": "6228"
+    },
+    {
+      "name": "Paris",
+      "rating": 4.8,
+      "price": "$2700",
+      "description": "Visit Disneyland Paris and explore the city's iconic landmarks. Experience the magic of Disney while enjoying the charm of Paris, from the Eiffel Tower to the Louvre. Indulge in delicious French cuisine and take leisurely strolls along the Seine, creating lasting memories in the City of Light.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/paris.jpeg",
+      "activities": [
+        "Disneyland Paris visits",
+        "Sightseeing",
+        "Dining",
+        "Shopping",
+        "River cruises",
+        "Cultural experiences"
+      ],
+      "id": "6616"
+    },
+    {
+      "name": "San Diego",
+      "rating": 4.9,
+      "price": "$2200",
+      "description": "Enjoy the beaches, parks, and attractions in sunny San Diego, California. Visit the world-famous San Diego Zoo, explore Balboa Park, and relax on beautiful beaches. Experience the vibrant culture and delicious cuisine that this coastal city has to offer, making it a fantastic family vacation spot.",
+      "duration": "7 days",
+      "image": "/src/assets/Family/sandiego.jpeg",
+      "activities": [
+        "Zoo visits",
+        "Beach activities",
+        "Park explorations",
+        "Dining",
+        "Shopping",
+        "Water sports"
+      ],
+      "id": "b9f1"
+    },
+    {
+      "name": "Singapore",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Experience family-friendly attractions like Universal Studios and Sentosa Island. Enjoy thrilling rides, interactive exhibits, and beautiful beaches. Discover the rich culture and diverse cuisine of Singapore while exploring its many parks and gardens, making it an exciting destination for families.",
+      "duration": "6 days",
+      "image": "/src/assets/Luxury/singapore.jpeg",
+      "activities": [
+        "Theme park visits",
+        "Beach activities",
+        "Cultural experiences",
+        "Shopping",
+        "Dining",
+        "Nature walks"
+      ],
+      "id": "423d"
+    },
+    {
+      "name": "Dubai",
+      "rating": 4.7,
+      "price": "$3000",
+      "description": "Explore family attractions like Dubai Parks and Resorts and the Dubai Aquarium. Experience thrilling rides, interactive exhibits, and stunning marine life. Enjoy luxurious shopping and dining experiences, and take in the breathtaking views of the city, making it a perfect family-friendly destination.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/dubai.jpeg",
+      "activities": [
+        "Theme park visits",
+        "Aquarium tours",
+        "Shopping",
+        "Dining experiences",
+        "Desert safaris",
+        "Cultural experiences"
+      ],
+      "id": "495e"
+    },
+    {
+      "name": "Toronto",
+      "rating": 4.9,
+      "price": "$2100",
+      "description": "Visit the Toronto Zoo and explore family-friendly attractions in the city. Discover interactive exhibits, beautiful parks, and cultural landmarks. Enjoy diverse dining options and vibrant neighborhoods, making it a great destination for families looking to explore and have fun.",
+      "duration": "5 days",
+      "image": "/src/assets/Family/toronto.jpeg",
+      "activities": [
+        "Zoo visits",
+        "Cultural experiences",
+        "Parks and gardens",
+        "Shopping",
+        "Dining",
+        "Theater shows"
+      ],
+      "id": "6e4f"
+    },
+    {
+      "name": "Vancouver",
+      "rating": 4.8,
+      "price": "$2200",
+      "description": "Explore the beautiful parks and family-friendly attractions in Vancouver, Canada. Visit Stanley Park, enjoy the Vancouver Aquarium, and take a stroll along the waterfront. Experience the city's vibrant culture, diverse cuisine, and stunning natural scenery, making it an ideal destination for families.",
+      "duration": "6 days",
+      "image": "/src/assets/Family/vancouver.jpeg",
+      "activities": [
+        "Aquarium visits",
+        "Park explorations",
+        "Beach activities",
+        "Dining",
+        "Shopping",
+        "Cultural experiences"
+      ],
+      "id": "6535"
+    },
+    {
+      "name": "Gold Coast",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Enjoy the theme parks and beautiful beaches of the Gold Coast, Australia. Experience thrilling rides at Dreamworld and Warner Bros. Movie World, and relax on the stunning beaches. Discover the vibrant nightlife and delicious dining options, making it a perfect family vacation spot.",
+      "duration": "7 days",
+      "image": "/src/assets/Family/goldcoast.jpeg",
+      "activities": [
+        "Theme park visits",
+        "Beach activities",
+        "Shopping",
+        "Dining",
+        "Water sports",
+        "Wildlife encounters"
+      ],
+      "id": "9b68"
+    },
+    {
+      "name": "Lisbon",
+      "rating": 4.7,
+      "price": "$1800",
+      "description": "Discover family-friendly attractions and beautiful parks in Lisbon, Portugal. Visit the Oceanário de Lisboa, explore the historic Belém district, and enjoy the scenic views from the city's many viewpoints. Experience the rich culture and delicious cuisine, making it a delightful destination for families.",
+      "duration": "5 days",
+      "image": "/src/assets/Historical/lisbon.jpeg",
+      "activities": [
+        "Aquarium visits",
+        "Sightseeing tours",
+        "Parks and gardens",
+        "Cultural experiences",
+        "Dining",
+        "Shopping"
+      ],
+      "id": "da30"
+    },
+    {
+      "name": "Barcelona",
+      "rating": 4.8,
+      "price": "$2300",
+      "description": "Explore the vibrant culture and family-friendly attractions in Barcelona, Spain. Visit the iconic Sagrada Família, enjoy the interactive exhibits at CosmoCaixa, and relax at the beautiful parks. Experience the delicious Catalan cuisine and the lively atmosphere of this stunning city.",
+      "duration": "6 days",
+      "image": "/src/assets/Family/barcelona.jpeg",
+      "activities": [
+        "Sightseeing",
+        "Museum visits",
+        "Park explorations",
+        "Dining",
+        "Shopping",
+        "Cultural experiences"
+      ],
+      "id": "dd55"
+    },
+    {
+      "name": "New York City",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Experience iconic attractions like Central Park and the Statue of Liberty in NYC. Explore world-class museums, enjoy Broadway shows, and indulge in diverse culinary experiences. Discover the vibrant neighborhoods and rich culture, making it an unforgettable family adventure.",
+      "duration": "7 days",
+      "image": "/src/assets/Luxury/newyork.jpeg",
+      "activities": [
+        "Sightseeing",
+        "Museum visits",
+        "Broadway shows",
+        "Dining",
+        "Shopping",
+        "Parks and gardens"
+      ],
+      "id": "0318"
+    }
+  ],
+  "Ski": [
+    {
+      "name": "Aspen",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Enjoy world-class skiing and luxury accommodations in Aspen, Colorado. Experience the thrill of skiing on pristine slopes, indulge in high-end dining, and relax in luxurious spas. Explore the charming town filled with boutique shops and vibrant nightlife, making it a perfect winter getaway.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/aspen.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Spa treatments",
+        "Fine dining",
+        "Shopping",
+        "Nightlife"
+      ],
+      "id": "65a6"
+    },
+    {
+      "name": "Whistler",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Experience the largest ski resort in North America at Whistler, Canada. Enjoy a variety of slopes for all skill levels, indulge in après-ski activities, and explore the stunning alpine village. With breathtaking views and endless outdoor adventures, Whistler is a must-visit for ski enthusiasts.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/whistler.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Zip-lining",
+        "Mountain biking",
+        "Après-ski",
+        "Shopping"
+      ],
+      "id": "1cea"
+    },
+    {
+      "name": "Chamonix",
+      "rating": 4.9,
+      "price": "$3200",
+      "description": "Ski in the breathtaking Alps at Chamonix, France. Experience the thrill of skiing on legendary slopes, enjoy stunning views of Mont Blanc, and explore charming alpine villages. With a rich history and vibrant culture, Chamonix offers an unforgettable skiing experience.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/chamonix.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Ice climbing",
+        "Paragliding",
+        "Dining",
+        "Shopping"
+      ],
+      "id": "1b1c"
+    },
+    {
+      "name": "Zermatt",
+      "rating": 4.8,
+      "price": "$3500",
+      "description": "Enjoy skiing with stunning views of the Matterhorn in Zermatt, Switzerland. Experience the unique charm of this car-free village, indulge in gourmet dining, and explore the extensive ski area. Zermatt is a paradise for skiers and snowboarders alike, offering breathtaking scenery and world-class slopes.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/Zermatt.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Gourmet dining",
+        "Hiking",
+        "Shopping",
+        "Wellness retreats"
+      ],
+      "id": "cbc4"
+    },
+    {
+      "name": "Niseko",
+      "rating": 4.7,
+      "price": "$2800",
+      "description": "Experience powder snow and beautiful landscapes in Niseko, Japan. Renowned for its light, fluffy snow, Niseko offers exceptional skiing and snowboarding opportunities. Enjoy the unique Japanese culture, relax in onsen (hot springs), and savor delicious local cuisine after a day on the slopes.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/niseko.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Onsen visits",
+        "Cultural experiences",
+        "Dining",
+        "Shopping"
+      ],
+      "id": "7fcb"
+    },
+    {
+      "name": "Jackson Hole",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Ski in the stunning landscapes of Jackson Hole, Wyoming. Known for its challenging terrain and breathtaking views, Jackson Hole offers an exhilarating skiing experience. Explore the charming town, enjoy local dining, and take in the natural beauty of the surrounding mountains.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/jackson hole.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Wildlife tours",
+        "Dining",
+        "Shopping",
+        "Snowshoeing"
+      ],
+      "id": "1fc5"
+    },
+    {
+      "name": "St. Anton",
+      "rating": 4.8,
+      "price": "$3200",
+      "description": "Enjoy skiing and après-ski in the vibrant resort of St. Anton, Austria. Known for its lively atmosphere and excellent slopes, St. Anton offers a perfect blend of skiing and nightlife. Experience traditional Austrian hospitality and indulge in delicious local cuisine after a day on the slopes.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/st.anton.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Après-ski",
+        "Dining",
+        "Shopping",
+        "Live music "
+      ],
+      "id": "7343"
+    },
+    {
+      "name": "Park City",
+      "rating": 4.7,
+      "price": "$2500",
+      "description": "Experience the largest ski area in the U.S. at Park City, Utah. With a variety of runs for all skill levels, Park City offers an unforgettable skiing experience. Explore the charming historic Main Street, enjoy local dining, and take part in exciting winter activities.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/park ciry.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Dining",
+        "Shopping",
+        "Snowmobiling",
+        "Live entertainment"
+      ],
+      "id": "43db"
+    },
+    {
+      "name": "Cortina d'Ampezzo",
+      "rating": 4.9,
+      "price": "$3000",
+      "description": "Ski in the stunning Dolomites at Cortina d'Ampezzo, Italy. Known for its breathtaking scenery and excellent skiing conditions, Cortina offers a unique blend of outdoor adventure and Italian charm. Enjoy gourmet dining and explore the picturesque town after a day on the slopes.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/cortina.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Gourmet dining",
+        "Shopping",
+        "Cultural tours",
+        "Wellness retreats"
+      ],
+      "id": "da94"
+    },
+    {
+      "name": "Val d'Isère",
+      "rating": 4.8,
+      "price": "$3500",
+      "description": "Experience world-class skiing and vibrant après-ski in Val d'Isère, France. With a vast ski area and stunning alpine scenery, Val d'Isère is a paradise for skiers. Enjoy lively nightlife, gourmet dining, and the charm of this historic ski resort.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/val'd'isere.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Après-ski",
+        "Dining",
+        "Shopping",
+        "Ice skating"
+      ],
+      "id": "51da"
+    },
+    {
+      "name": "Lake Louise",
+      "rating": 4.9,
+      "price": "$3200",
+      "description": "Ski in the breathtaking scenery of Lake Louise, Canada. Known for its stunning turquoise lake and majestic mountains, Lake Louise offers exceptional skiing and snowboarding opportunities. Enjoy the cozy lodges, fine dining, and the natural beauty of Banff National Park.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/lakelouise.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Dining",
+        "Ice skating",
+        "Snowshoeing",
+        "Wildlife viewing"
+      ],
+      "id": "9dad"
+    },
+    {
+      "name": "Garmisch-Partenkirchen",
+      "rating": 4.7,
+      "price": "$2800",
+      "description": "Enjoy skiing and stunning views in Garmisch-Partenkirchen, Germany. This charming town offers a mix of traditional Bavarian culture and excellent skiing. Explore the beautiful slopes, indulge in local cuisine, and take in the breathtaking views of the Alps.",
+      "duration": "6 days",
+      "image": "/src/assets/Ski/garmisch.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Dining",
+        "Cultural experiences",
+        "Shopping",
+        "Wellness retreats"
+      ],
+      "id": "8994"
+    },
+    {
+      "name": "Andorra",
+      "rating": 4.8,
+      "price": "$2500",
+      "description": "Experience skiing in the beautiful Pyrenees at Andorra. With a variety of ski resorts and stunning mountain scenery, Andorra is perfect for skiers of all levels. Enjoy duty-free shopping, delicious cuisine, and a vibrant après-ski scene in this charming destination.",
+      "duration": "7 days",
+      "image": "/src/assets/Ski/andorr.jpeg",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Shopping",
+        "Dining",
+        "Spa treatments",
+        "Nightlife"
+      ],
+      "id": "ced4"
+    }
+  ],
+  "Wildlife": [
+    {
+      "name": "Serengeti",
+      "rating": 4.9,
+      "price": "$4000",
+      "description": "Experience the Great Migration and stunning wildlife in the Serengeti, Tanzania. Witness millions of wildebeest and zebras as they traverse the plains in search of greener pastures. Enjoy guided safaris, breathtaking sunsets, and the chance to see the Big Five in their natural habitat, making this an unforgettable adventure.",
+      "duration": "10 days",
+      "image": "/src/assets/WildLife/serengiti.jpeg",
+      "activities": [
+        "Guided safaris",
+        "Wildlife photography",
+        "Cultural experiences"
+      ],
+      "id": "191a"
+    },
+    {
+      "name": "Galapagos Islands",
+      "rating": 4.8,
+      "price": "$5000",
+      "description": "Discover unique wildlife and pristine landscapes in the Galapagos Islands. Explore the diverse ecosystems that inspired Charles Darwin, from giant tortoises to marine iguanas. Enjoy snorkeling in crystal-clear waters, hiking volcanic landscapes, and experiencing the rich biodiversity that makes this archipelago a true natural wonder.",
+      "duration": "8 days",
+      "image": "/src/assets/WildLife/galapagos.jpeg",
+      "activities": [
+        "Snorkeling",
+        "Hiking",
+        "Wildlife watching"
+      ],
+      "id": "5420"
+    },
+    {
+      "name": "Kruger National Park",
+      "rating": 4.7,
+      "price": "$3000",
+      "description": "Explore the diverse wildlife and stunning landscapes of Kruger National Park, South Africa. Embark on thrilling game drives to spot lions, elephants, and rhinos in their natural habitat. Experience the beauty of the African bush, enjoy guided walks, and immerse yourself in the rich culture of the region.",
+      "duration": "7 days",
+      "image": "/src/assets/WildLife/kruger.jpeg",
+      "activities": [
+        "Game drives",
+        "Guided walks",
+        "Bird watching"
+      ],
+      "id": "b09b"
+    },
+    {
+      "name": "Yellowstone National Park",
+      "rating": 4.9,
+      "price": "$2500",
+      "description": "Experience the geothermal features and wildlife of Yellowstone National Park, USA. Discover the iconic Old Faithful geyser, vibrant hot springs, and diverse wildlife including bison and elk. Enjoy hiking trails, scenic drives, and the breathtaking beauty of this natural wonderland.",
+      "duration": "6 days",
+      "image": "/src/assets/WildLife/yellowstone.jpeg",
+      "activities": [
+        "Hiking",
+        "Wildlife photography",
+        "Scenic drives"
+      ],
+      "id": "f07a"
+    },
+    {
+      "name": "Borneo",
+      "rating": 4.8,
+      "price": "$3500",
+      "description": "Discover the unique wildlife and rainforests of Borneo. Explore the lush jungles, home to orangutans, pygmy elephants, and diverse flora. Enjoy river cruises, guided treks, and cultural experiences with indigenous communities, making it a perfect destination for nature lovers.",
+      "duration": "10 days",
+      "image": "/src/assets/WildLife/borneo.jpeg",
+      "activities": [
+        "River cruises",
+        "Guided treks",
+        "Cultural experiences"
+      ],
+      "id": "4336"
+    },
+    {
+      "name": "Masai Mara",
+      "rating": 4.9,
+      "price": "$4500",
+      "description": "Witness the incredible wildlife and landscapes of the Masai Mara, Kenya. Experience the thrill of a safari during the Great Migration, where millions of animals cross the plains. Enjoy luxurious lodges, cultural interactions with the Maasai people, and stunning sunsets over the savannah.",
+      "duration": "8 days",
+      "image": "/src/assets/WildLife/masa.jpeg",
+      "activities": [
+        "Safari tours",
+        "Cultural interactions",
+        "Hot air balloon rides"
+      ],
+      "id": "2845"
+    },
+    {
+      "name": "Costa Rica",
+      "rating": 4.7,
+      "price": "$2000",
+      "description": "Explore the rich biodiversity and wildlife in Costa Rica. Discover lush rainforests, stunning beaches, and active volcanoes. Enjoy activities like zip-lining, bird watching, and relaxing in natural hot springs, all while experiencing the vibrant culture and hospitality of this Central American gem.",
+      "duration": "10 days",
+      "image": "/src/assets/WildLife/costarica.jpeg",
+      "activities": [
+        "Zip-lining",
+        "Bird watching",
+        "Hot springs"
+      ],
+      "id": "5195"
+    },
+    {
+      "name": "Great Barrier Reef",
+      "rating": 4.8,
+      "price": "$3000",
+      "description": "Experience the stunning marine life and coral reefs of the Great Barrier Reef, Australia. Snorkel or dive among vibrant coral gardens, encounter diverse marine species, and enjoy boat tours to explore the breathtaking islands. This UNESCO World Heritage site is a paradise for ocean lovers.",
+      "duration": "7 days",
+      "image": "/src/assets/WildLife/Great Barrier Reef, Australia.jpeg",
+      "activities": [
+        "Snorkeling",
+        "Diving",
+        "Boat tours"
+      ],
+      "id": "b87a"
+    },
+    {
+      "name": "Antarctica",
+      "rating": 4.9,
+      "price": "$6000",
+      "description": "Explore the unique wildlife and stunning landscapes of Antarctica. Witness majestic glaciers, playful penguins, and breathtaking ice formations. Enjoy guided excursions to see seals and whales, and experience the pristine beauty of the last great wilderness on Earth. This once-in-a-lifetime journey offers an unparalleled adventure for nature enthusiasts.",
+      "duration": "12 days",
+      "image": "/src/assets/WildLife/antartica.jpeg",
+      "activities": [
+        "Guided excursions",
+        "Wildlife watching",
+        "Photography"
+      ],
+      "id": "127a"
+    },
+    {
+      "name": "Amazon Rainforest",
+      "rating": 4.8,
+      "price": "$4000",
+      "description": "Discover the incredible biodiversity and wildlife of the Amazon Rainforest. Explore the lush jungle, home to countless species of plants and animals, and experience guided tours led by local experts. Enjoy canoeing, bird watching, and cultural interactions with indigenous communities, making it a unique adventure.",
+      "duration": "10 days",
+      "image": "/src/assets/WildLife/amazon.jpeg",
+      "activities": [
+        "Canoeing",
+        "Bird watching",
+        "Guided tours"
+      ],
+      "id": "6a63"
+    },
+    {
+      "name": "Komodo Island",
+      "rating": 4.7,
+      "price": "$3500",
+      "description": "Encounter the famous Komodo dragons and stunning landscapes of Komodo Island, Indonesia. Explore the unique ecosystems, enjoy snorkeling in vibrant coral reefs, and take in the breathtaking views from the island's hills. This destination offers a perfect blend of adventure and natural beauty.",
+      "duration": "8 days",
+      "image": "/src/assets/WildLife/komodo.jpeg",
+      "activities": [
+        "Snorkeling",
+        "Hiking",
+        "Wildlife tours"
+      ],
+      "id": "6c3b"
+    },
+    {
+      "name": "Chobe National Park",
+      "rating": 4.9,
+      "price": "$4500",
+      "description": "Experience incredible wildlife viewing in Chobe National Park, Botswana. Known for its large elephant population, Chobe offers thrilling game drives and boat safaris along the river. Enjoy stunning sunsets and the chance to see a variety of wildlife in their natural habitat, making it a photographer's paradise.",
+      "duration": "7 days",
+      "image": "/src/assets/WildLife/Chobe National Park Botswana.jpeg",
+      "activities": [
+        "Game drives",
+        "Boat safaris",
+        "Photography"
+      ],
+      "id": "8deb"
+    }
+  ],
+  "traveler": [
+    {
+      "id": "1",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams@gmail.com",
+      "phone": "+229 61975355",
+      "address": "Fifatin",
+      "travelers": "9"
+    },
+    {
+      "id": "a49a",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams1234@gmail.com",
+      "phone": "61975355",
+      "address": "Fifatin",
+      "travelers": "3"
+    },
+    {
+      "id": "35b6",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams1234@gmail.com",
+      "phone": "61975355",
+      "address": "Fifatin1",
+      "travelers": "6"
+    },
+    {
+      "id": "88b7",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams1234@gmail.com",
+      "phone": "61975355",
+      "address": "Fifatin",
+      "travelers": "8"
+    },
+    {
+      "id": "336b",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams1234@gmail.com",
+      "phone": "61975355",
+      "address": "Fifatin",
+      "travelers": "9"
+    },
+    {
+      "id": "2a7a",
+      "name": "Chibueze Williams",
+      "email": "pricelesswilliams1234@gmail.com",
+      "phone": "61975355",
+      "address": "Fifatin",
+      "travelers": "4"
+    }
+  ]
+}
