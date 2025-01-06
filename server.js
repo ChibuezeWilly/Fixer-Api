@@ -60,7 +60,7 @@ app.get("/api/locations/:id", async (req, res) => {
     }
 });
 
-app.get("/api/beach", async (req, res) => {
+app.get("/api/Beach", async (req, res) => {
   try {
     const data = await readLocationData();
     res.status(200).json(data.Beach); // Accessing the Beach key
